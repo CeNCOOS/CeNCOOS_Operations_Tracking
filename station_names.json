@@ -1,0 +1,54 @@
+[
+    {
+        "stationName": "Moss Landing Marine Laboratories Seawater Intake Monitoring Station (MLSC1)",
+        "datasetID": "mlml_mlml_sea"
+    },
+    {
+        "stationName": "Romberg Tiburon Center Pier",
+        "datasetID": "tiburon-water-tibc1"
+    },
+    {
+        "stationName": "Santa Cruz municipal wharf",
+        "datasetID": "edu_ucsc_scwharf1"
+    },
+    {
+        "stationName": "Trinidad Head, California",
+        "datasetID": "edu_humboldt_tdp"
+    },
+    {
+        "stationName": "Bodega Marine Laboratory seawater intake",
+        "datasetID": "bodega-bay-bml_wts"
+    },
+    {
+        "stationName": "Carquinez",
+        "datasetID": "carquinez"
+    },
+    {
+        "stationName": "Fort Point Pier",
+        "datasetID": "fort-point"
+    },
+    {
+        "stationName": "Humboldt Bay Pier",
+        "datasetID": "edu_humboldt_humboldt"
+    },
+    {
+        "stationName": "Monterey Bay Commercial Wharf",
+        "datasetID": "mlml_monterey"   
+    },
+    {
+        "stationName": "Morro Bay - BM1 T-Pier",
+        "datasetID": "edu_calpoly_marine_morro"
+    },
+    {
+        "stationName": "Morro Bay - BS1",
+        "datasetID": "morro-bay-bs1"
+    },
+    {
+        "stationName": "San Luis Bay - Cal Poly Pier Shore (CPXC1)",
+        "datasetID": "san-luis-bay-cal-poly-pier-shore"
+    },
+    {
+        "stationName": "Tuluwat (Indian Island)",
+        "datasetID": "wiyot_tribe_indianisland"
+    }
+]

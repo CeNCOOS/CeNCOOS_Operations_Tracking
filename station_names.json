@@ -32,8 +32,8 @@
         "datasetID": "edu_humboldt_humboldt"
     },
     {
-        "stationName": "Monterey Bay Commercial Wharf",
-        "datasetID": "mlml_monterey"   
+        "stationName": "Monterey Wharf Real Time Sampling",
+        "datasetID": "monterey-wharf-real-time-samplin"   
     },
     {
         "stationName": "Morro Bay - BM1 T-Pier",

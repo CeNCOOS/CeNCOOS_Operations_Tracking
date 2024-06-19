@@ -1,14 +1,14 @@
-stationName,timedelta
-Moss Landing Marine Laboratories Seawater Intake Monitoring Station (MLSC1),"2 hours, 17 minutes"
-Romberg Tiburon Center Pier,"847 days, 18 hours, 10 minutes"
-Santa Cruz municipal wharf,"1323 days, 5 hours, 43 minutes"
-"Trinidad Head, California",23 minutes
-Bodega Marine Laboratory seawater intake,"229 days, 6 hours, 5 minutes"
-Carquinez,"11 days, 0 hours, 23 minutes"
-Fort Point Pier,"229 days, 9 hours, 36 minutes"
-Humboldt Bay Pier,24 minutes
-Monterey Bay Commercial Wharf,"1663 days, 7 hours, 39 minutes"
-Morro Bay - BM1 T-Pier,24 minutes
-Morro Bay - BS1,24 minutes
-San Luis Bay - Cal Poly Pier Shore (CPXC1),42 minutes
-Tuluwat (Indian Island),"1279 days, 12 hours, 39 minutes"
+stationName,timeDelta
+Moss Landing Marine Laboratories Seawater Intake Monitoring Station (MLSC1),"21 hours, 5 minutes"
+Romberg Tiburon Center Pier,"848 days, 12 hours, 59 minutes"
+Santa Cruz municipal wharf,"1324 days, 0 hours, 32 minutes"
+"Trinidad Head, California",27 minutes
+Bodega Marine Laboratory seawater intake,"230 days, 0 hours, 54 minutes"
+Carquinez,"11 days, 19 hours, 11 minutes"
+Fort Point Pier,"230 days, 4 hours, 24 minutes"
+Humboldt Bay Pier,28 minutes
+Monterey Wharf Real Time Sampling,"23 hours, 13 minutes"
+Morro Bay - BM1 T-Pier,53 minutes
+Morro Bay - BS1,53 minutes
+San Luis Bay - Cal Poly Pier Shore (CPXC1),30 minutes
+Tuluwat (Indian Island),"1280 days, 7 hours, 28 minutes"

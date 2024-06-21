@@ -20,7 +20,7 @@ def get_all_stations():
     stationnames = []
     for i in data:
         stationnames.append(i['stationName'])
-    return stationnames
+    return stationnames 
 
 def get_erddapid(station_file, station_name):
     '''
@@ -58,8 +58,7 @@ def get_timedelta(erddapID):
     else:
         timedelta_str = "< 1 minute"
     
-    print(timedelta_str)
-    return timedelta_str
+        return timedelta_str
 
 def create_clean_csv(outputfile):
      '''
@@ -88,3 +87,6 @@ if __name__ == "__main__":
         erddapid = get_erddapid(station_file = 'station_names.json', station_name = station)
         timedelta_str = get_timedelta(erddapID=erddapid)
         write_to_csv(station = station, timedelta_str = timedelta_str, outputfile = outputfile)
+    
+    now = dt.datetime.now(tz=dt.timezone.utc)
+    print(f'cencoos_status_v2.py ran successfully at {now} UTC')

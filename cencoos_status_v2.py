@@ -30,9 +30,19 @@ def get_erddapid(station_file, station_name):
     data = json.load(f)
 
     for station in data:
+        if station['stationName'] == station_name:
+            return station['datasetID']
+
+def get_caloos_link(station_file, station_name):
+    '''
+    Fetch CalOOS links from the JSON file and station name
+    '''
+    f = open(station_file)
+    data = json.load(f)
+    for station in data:
             if station['stationName'] == station_name:
-                return station['datasetID']
-            
+                return station['caloos_link']
+
 def get_timedelta(erddapID):
     '''
     Calculate the time delta between the present time and the latest time-point captured on ERDDAP.
@@ -57,27 +67,28 @@ def get_timedelta(erddapID):
         timedelta_str = f"{minutes} minutes"
     else:
         timedelta_str = "< 1 minute"
-    
-        return timedelta_str
+        
+        
+    return timedelta_str
 
 def create_clean_csv(outputfile):
      '''
      Creates a clean CSV with proper column headers
      '''
      with open(outputfile, 'w', newline='') as csvfile:
-            fieldnames = ['stationName', 'timeDelta']
+            fieldnames = ['stationName', 'timeDelta', 'caloosLink']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
      
      
-def write_to_csv(station, timedelta_str, outputfile):
+def write_to_csv(station, timedelta_str, caloos_link, outputfile):
     '''
     Writes the timedelta string values for each station as a new row in a CSV file.
     '''
     with open(outputfile, 'a', newline='') as csvfile:
-        fieldnames = ['stationName', 'timeDelta']
+        fieldnames = ['stationName', 'timeDelta', 'caloosLink']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writerow({'stationName': station, 'timeDelta': timedelta_str})
+        writer.writerow({'stationName': station, 'timeDelta': timedelta_str, 'caloosLink': caloos_link})
 
 if __name__ == "__main__":
     outputfile = 'stations_timedelta.csv'
@@ -85,8 +96,9 @@ if __name__ == "__main__":
 
     for station in get_all_stations():
         erddapid = get_erddapid(station_file = 'station_names.json', station_name = station)
+        caloos_link = get_caloos_link(station_file = 'station_names.json', station_name = station)
         timedelta_str = get_timedelta(erddapID=erddapid)
-        write_to_csv(station = station, timedelta_str = timedelta_str, outputfile = outputfile)
+        write_to_csv(station = station, timedelta_str = timedelta_str, caloos_link = caloos_link, outputfile = outputfile)
     
     now = dt.datetime.now(tz=dt.timezone.utc)
     print(f'cencoos_status_v2.py ran successfully at {now} UTC')

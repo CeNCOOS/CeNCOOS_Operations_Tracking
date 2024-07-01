@@ -1,54 +1,73 @@
 [
     {
         "stationName": "Moss Landing Marine Laboratories Seawater Intake Monitoring Station (MLSC1)",
-        "datasetID": "mlml_mlml_sea"
+        "datasetID": "mlml_mlml_sea",
+        "caloos_link": "https://data.caloos.org/#metadata/48035/station/data"
+    },
+    {
+        "stationName": "Hog Island Oyster",
+        "datasetID": "hog-island-hatchery",
+        "caloos_link": "https://data.caloos.org/?#metadata/103542/station/data"
+
     },
     {
         "stationName": "Romberg Tiburon Center Pier",
-        "datasetID": "tiburon-water-tibc1"
+        "datasetID": "tiburon-water-tibc1",
+        "caloos_link": "https://data.caloos.org/?&sensor_version=v2cache#metadata/103547/station/data"
     },
     {
-        "stationName": "Santa Cruz municipal wharf",
-        "datasetID": "edu_ucsc_scwharf1"
+        "stationName": "Santa Cruz Municipal Wharf",
+        "datasetID": "edu_ucsc_scwharf1",
+        "caloos_link": "https://data.caloos.org/#metadata/48323/station/data"
     },
     {
         "stationName": "Trinidad Head, California",
-        "datasetID": "edu_humboldt_tdp"
+        "datasetID": "edu_humboldt_tdp",
+        "caloos_link": "https://data.caloos.org/#metadata/48097/station/data"
     },
     {
         "stationName": "Bodega Marine Laboratory seawater intake",
-        "datasetID": "bodega-bay-bml_wts"
+        "datasetID": "bodega-bay-bml_wts",
+        "caloos_link": "https://data.caloos.org/#metadata/19946/station/data"
     },
     {
         "stationName": "Carquinez",
-        "datasetID": "carquinez"
+        "datasetID": "carquinez",
+        "caloos_link": "https://data.caloos.org/?&sensor_version=v2cache#metadata/103546/station/data"
     },
     {
         "stationName": "Fort Point Pier",
-        "datasetID": "fort-point"
+        "datasetID": "fort-point",
+        "caloos_link": "https://data.caloos.org/#metadata/19947/station/data"
     },
     {
         "stationName": "Humboldt Bay Pier",
-        "datasetID": "edu_humboldt_humboldt"
+        "datasetID": "edu_humboldt_humboldt",
+        "caloos_link": "https://data.caloos.org/#metadata/20363/station/data"
     },
     {
         "stationName": "Monterey Wharf Real Time Sampling",
-        "datasetID": "monterey-wharf-real-time-samplin"   
+        "datasetID": "monterey-wharf-real-time-samplin",
+        "caloos_link": "https://data.caloos.org/#metadata/130085/station/data"   
     },
     {
         "stationName": "Morro Bay - BM1 T-Pier",
-        "datasetID": "edu_calpoly_marine_morro"
+        "datasetID": "edu_calpoly_marine_morro",
+        "caloos_link": "https://data.caloos.org/#metadata/20679/station/data"
     },
     {
         "stationName": "Morro Bay - BS1",
-        "datasetID": "morro-bay-bs1"
+        "datasetID": "morro-bay-bs1",
+        "caloos_link": "https://data.caloos.org/#metadata/100050/station/data"
     },
     {
         "stationName": "San Luis Bay - Cal Poly Pier Shore (CPXC1)",
-        "datasetID": "san-luis-bay-cal-poly-pier-shore"
+        "datasetID": "san-luis-bay-cal-poly-pier-shore",
+        "caloos_link": "https://data.caloos.org/#metadata/103545/station"
     },
     {
         "stationName": "Tuluwat (Indian Island)",
-        "datasetID": "wiyot_tribe_indianisland"
+        "datasetID": "wiyot_tribe_indianisland",
+        "caloos_link": "https://data.caloos.org/#metadata/64322/station/data"
     }
 ]

@@ -1,0 +1,30 @@
+Asset,timeDelta,caloosLink
+Moss Landing Marine Laboratories Seawater Intake Monitoring Station (MLSC1),7 minutes,https://data.caloos.org/#metadata/48035/station/data
+Hog Island Oyster,"74 days, 3 hours, 46 minutes",https://data.caloos.org/?#metadata/103542/station/data
+Romberg Tiburon Center Pier,"895 days, 12 hours, 2 minutes",https://data.caloos.org/?&sensor_version=v2cache#metadata/103547/station/data
+Santa Cruz Municipal Wharf,"1370 days, 23 hours, 38 minutes",https://data.caloos.org/#metadata/48323/station/data
+"Trinidad Head, California",35 minutes,https://data.caloos.org/#metadata/48097/station/data
+Bodega Marine Laboratory seawater intake,"277 days, 0 hours, 3 minutes",https://data.caloos.org/#metadata/19946/station/data
+Carquinez,38 minutes,https://data.caloos.org/?&sensor_version=v2cache#metadata/103546/station/data
+Fort Point Pier,"277 days, 3 hours, 39 minutes",https://data.caloos.org/#metadata/19947/station/data
+Humboldt Bay Pier,"23 days, 13 hours, 29 minutes",https://data.caloos.org/#metadata/20363/station/data
+Monterey Wharf Real Time Sampling,"13 days, 18 hours, 30 minutes",https://data.caloos.org/#metadata/130085/station/data
+Morro Bay - BM1 T-Pier,40 minutes,https://data.caloos.org/#metadata/20679/station/data
+Morro Bay - BS1,41 minutes,https://data.caloos.org/#metadata/100050/station/data
+San Luis Bay - Cal Poly Pier Shore (CPXC1),48 minutes,https://data.caloos.org/#metadata/103545/station
+Tuluwat (Indian Island),"1327 days, 6 hours, 54 minutes",https://data.caloos.org/#metadata/64322/station/data
+West Coast Operational Forecasting System (WCOFS) (AWS S3),"14 hours, 39 minutes",http://thredds.cencoos.org/thredds/dodsC/AWS_WCOFS.nc
+ROMS NEMURO West Coast Nowcast (10km),"5 days, 17 hours, 39 minutes",http://thredds.cencoos.org/thredds/dodsC/CCSNRT_NEMURO.nc
+ROMS West Coast Nowcast,NetCDF4 read error with dataset,http://thredds.cencoos.org/thredds/dodsC/cencoos/ccsnrt/
+Harmful Algal Bloom (HAB) Predictions from the California-Harmful Algae Risk Mapping (C-HARM) System-Forecast V3,"1 days, 5 hours, 40 minutes",http://thredds.cencoos.org/thredds/dodsC/CHARM_FORECAST_V3.nc
+COAMPS CeNCOOS Forecast (4km),"1 days, 17 hours, 40 minutes",http://thredds.cencoos.org/thredds/dodsC/COAMPS.nc
+San Francisco Bay Ocean Forecast System (SFBOFS)- Regular Grid (COOPS),"5 days, 18 hours, 40 minutes",http://thredds.cencoos.org/thredds/dodsC/NOAA_OFS_SFBOFS_regulargrid.nc
+San Francisco Bay Ocean Forecast System (SFBOFS)- Regular Grid (AWS S3),"18 hours, 40 minutes",http://thredds.cencoos.org/thredds/dodsC/AWS_SFBOFS_REGULARGRID.nc
+Trinidad (OSU 686),"5 hours, 18 minutes",https://erddap.cencoos.org/erddap/tabledap/OSU686-20240412T0000.csv
+"Pt. Arena, line 56 glider","14 days, 2 hours, 10 minutes",https://erddap.cencoos.org/erddap/tabledap/sp028-20240403T1628.csv
+"Monterey, Line 66 glider","9 hours, 39 minutes",https://erddap.cencoos.org/erddap/tabledap/sp025-20240515T2040.csv
+IFCB Santa Cruz Wharf,"5 days, 12 hours, 17 minutes",https://ifcb.caloos.org/santa-cruz-municipal-wharf
+IFCB Bodega Marine Lab,"1 days, 2 hours, 19 minutes",https://ifcb.caloos.org/bodega-marine-lab
+IFCB Cal Poly Humboldt,"26 days, 16 hours, 16 minutes",https://ifcb.caloos.org/cal-poly-humboldt-hioc
+IFCB MBARI Power Buoy,"13 hours, 11 minutes",https://ifcb.caloos.org/mbari-power-buoy
+IFCB San Francisco Pier 17,[],https://ifcb.caloos.org/san-francisco-pier-17

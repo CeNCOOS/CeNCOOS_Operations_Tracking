@@ -12,7 +12,7 @@
     {
         "modelName":"ROMS West Coast Nowcast",
         "datasetID":"UCSC",
-        "caloos_link":"http://thredds.cencoos.org/thredds/dodsC/UCSC.nc"
+        "caloos_link":"http://thredds.cencoos.org/thredds/dodsC/cencoos/ccsnrt/"
     },
     {
         "modelName":"Harmful Algal Bloom (HAB) Predictions from the California-Harmful Algae Risk Mapping (C-HARM) System-Forecast V3",
@@ -25,8 +25,13 @@
         "caloos_link":"http://thredds.cencoos.org/thredds/dodsC/COAMPS.nc"
     },
     {
-        "modelName":"San Francisco Bay Ocean Forecast System (SFBOFS)- Regular Grid (AWS S3)",
+        "modelName":"San Francisco Bay Ocean Forecast System (SFBOFS)- Regular Grid (COOPS)",
         "datasetID":"NOAA_OFS_SFBOFS",
         "caloos_link":"http://thredds.cencoos.org/thredds/dodsC/NOAA_OFS_SFBOFS_regulargrid.nc"
+    },
+    {
+        "modelName":"San Francisco Bay Ocean Forecast System (SFBOFS)- Regular Grid (AWS S3)",
+        "datasetID":"AWS_SFBOFS_REGULARGRID",
+        "caloos_link":"http://thredds.cencoos.org/thredds/dodsC/AWS_SFBOFS_REGULARGRID.nc"
     }
 ]

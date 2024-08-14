@@ -60,6 +60,11 @@ ttuluwat=dt.datetime.strptime(tuluwat['time'].iloc[-1],'%Y-%m-%dT%H:%M:%SZ')
 #
 # compute the time delta between the last time and "now"
 #
+pdb.set_trace()
+
+
+
+
 dtrin=now-ttrin
 dhumboldt=now-thumboldt
 dtuluwat=now-ttuluwat

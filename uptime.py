@@ -43,7 +43,7 @@ def uptime(seriestime,sampleinterval,starttime,endtime,gaptime):
     gindex=np.where(deltaseries > gaptime)
     gindex=gindex[0]
     # time since gap of size
-    uptime=seriestime['time'][0]-seriestime['time'][hindex[0]]
+    guptime=seriestime['time'][0]-seriestime['time'][gindex[0]]
     lindex=(seriestime['time'] >= starttime)&(seriestime['time'] <= endtime)
     subsettime=seriestime['time'][lindex]
     # get how many samples where taken during the specified time interval
@@ -56,5 +56,5 @@ def uptime(seriestime,sampleinterval,starttime,endtime,gaptime):
     # compute the fractional time that was sampled
     percentdays=100*(actualdays/totaldays)
     # pass the values back ?
-    return [uptime,totaldays,actualdays,percentdays]
+    return [guptime,totaldays,actualdays,percentdays]
     

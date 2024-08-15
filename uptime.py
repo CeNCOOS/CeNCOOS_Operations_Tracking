@@ -7,12 +7,17 @@ import requests
 import json
 import sys
 import matplotlib.pyplot as plt
+import pdb
 # code to compute uptime for assets
 # the code assumes that the asset samples at regular intervals
 # Do we need to deal with irregular interval sampling?
 # do we need a units measure for this so we know what the sample interval is?
 #
 def uptime(seriestime,sampleinterval,starttime,endtime,gaptime):
+    # sample interval is in minutes
+    # gaptime is in hours
+    # maybe we need to be consistent
+    # also series time?
     # if seriestime is not in python datetime format do that
     try:
         seriestime=pd.to_datetime(seriestime)
@@ -35,6 +40,7 @@ def uptime(seriestime,sampleinterval,starttime,endtime,gaptime):
     deltaseries=deltaseries.drop('index',axis=1)
     # since python does things in nanoseconds convert from them to a
     # more useful time interval
+    pdb.set_trace()
     deltaseries=deltaseries/1e9
     deltaseries=deltaseries.astype(float)
     # convert to hours

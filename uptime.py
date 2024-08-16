@@ -49,8 +49,10 @@ def uptime(seriestime,sampleinterval,starttime,endtime,gaptime):
     deltaseries=deltaseries/60.0/60.0
     # find where the first gap of a size is
     gindex=np.where(deltaseries > gaptime)
-    pdb.set_trace()
-    gindex=gindex[0]
+    try:
+        gindex=gindex[0]
+    except:
+        pdb.set_trace()
     # time since gap of size
     guptime=seriestime['time'][0]-seriestime['time'][gindex[0]]
     lindex=(seriestime['time'] >= starttime)&(seriestime['time'] <= endtime)

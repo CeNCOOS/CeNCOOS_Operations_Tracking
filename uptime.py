@@ -42,7 +42,7 @@ def uptime(seriestime,sampleinterval,starttime,endtime,gaptime):
     # since python does things in nanoseconds convert from them to a
     # more useful time interval
     deltaseries=deltaseries['time'].to_numpy()
-    #pdb.set_trace()
+    pdb.set_trace()
     deltaseries=deltaseries/1e9
     deltaseries=deltaseries.astype(float)
     # convert to hours

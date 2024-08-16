@@ -21,6 +21,7 @@ def uptime(seriestime,sampleinterval,starttime,endtime,gaptime):
     # if seriestime is not in python datetime format do that
     try:
         seriestime=pd.to_datetime(seriestime)
+        #seriestime=pd.to_datetime(seriestime['time'][1:])
     except:
         pass
     # compute first difference to see where the gaps are
@@ -40,7 +41,8 @@ def uptime(seriestime,sampleinterval,starttime,endtime,gaptime):
     deltaseries=deltaseries.drop('index',axis=1)
     # since python does things in nanoseconds convert from them to a
     # more useful time interval
-    pdb.set_trace()
+    deltaseries['time'].to_numpy()
+    #pdb.set_trace()
     deltaseries=deltaseries/1e9
     deltaseries=deltaseries.astype(float)
     # convert to hours

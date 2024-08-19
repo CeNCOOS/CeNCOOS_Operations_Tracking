@@ -106,7 +106,7 @@ for istation in np.arange(0,ls):
     asset_df=pd.read_csv('https://erddap.cencoos.org/erddap/tabledap/{}.csv?time'.format(assetID))
     seriestime=asset_df['time'][1:]
     gaptime=4
-    [guptime,totaldays,actualdays,percentdays]=uptime(seriestime,interval[istation],thequarter_start,thequarter_end,gaptime)]
+    [guptime,totaldays,actualdays,percentdays]=uptime(seriestime,interval[istation],thequarter_start,thequarter_end,gaptime)
     [sixuptime,sixtotal,sixactual,sixpercent]=uptime(seriestime,interval[istation],halfyear_start,thenow,gaptime)
     [yruptime,yrtotal,yractual,yrpercent]=uptime(seriestime,interval[istation],ioosyear_start,thenow,gaptime)
     # how do we output the results?

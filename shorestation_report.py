@@ -92,7 +92,7 @@ interval.append(1)
 # Tuluwat
 interval.append(15)
 
-ls=1
+ls=len(stationID)
 time_since_last_gap=[]
 quarter_days_up=[]
 quarter_percent_uptime=[]

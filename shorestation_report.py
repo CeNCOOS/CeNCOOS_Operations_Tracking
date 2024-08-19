@@ -35,7 +35,7 @@ for i in data:
 f.close()
 # step 2)
 # get the current date and time
-thenow=dt.datetime.now()
+thenow=dt.datetime.utcnow()
 theyear=thenow.year
 themonth=thenow.month
 theday=thenow.day

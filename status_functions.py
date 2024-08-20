@@ -64,8 +64,21 @@ def get_assets():
         ifcbID.append(i['datasetID'])
         ifcbURL.append(i['caloos_link'])
     f.close()
+    #
+    hab_file='habmap_stations.json'
+    f=open(hab_file)
+    data=json.load(f)
+    habnames=[]
+    habID=[]
+    habURL=[]
+    for i in data:
+        habnames.append(i['stationName'])
+        habID.append(i['datasetID'])
+        habURL.append(i['caloos_link'])
+    f.close()
+   
     
-    return [stationnames,stationID,stationURL,modelnames,modelID,modelURL,glidernames,gliderID,gliderURL,gliderioosURL,ifcbnames,ifcbID,ifcbURL]
+    return [stationnames,stationID,stationURL,modelnames,modelID,modelURL,glidernames,gliderID,gliderURL,gliderioosURL,ifcbnames,ifcbID,ifcbURL,habnames,habID,habURL]
 def get_asset_delta(assetID,assetURL):
     '''
     Calculate the time delta between the present time nad the last time point on the Axiom ERDDAP.
@@ -155,7 +168,11 @@ def get_asset_delta(assetID,assetURL):
         # need to define the URL etc to read from
         # is it a glider or shore station? how can we tell?  assetID and assetURL don't really help
         # shore station
-        asset_df=pd.read_csv('https://erddap.cencoos.org/erddap/tabledap/{}.csv?time'.format(assetID))
+        try:
+            asset_df=pd.read_csv('https://erddap.cencoos.org/erddap/tabledap/{}.csv?time'.format(assetID))
+        except:
+            # this is for the HABMAP stations different ERDDAP
+            asset_df=pd.read_csv('https://erddap.sccoos.org/erddap/tabledap/{}.csv?time'.format(assetID))
         #asset_df=pd.read_csv(f'https://erddap.cencoos.org/erddap/tabledap/{assetID}.csv?time')
         #asset_df=pd.read_csv(f'https://erddap.sensors.axds.co/erddap/tabledap/{erddapID}.csv?time')
         last_time = dt.datetime.strptime(asset_df['time'].iloc[-1],'%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=dt.timezone.utc)
@@ -204,11 +221,15 @@ def write_to_csv(asset,timedelta_str,caloos_link,outputfile):
 if __name__=="__main__":
     outputfile='asset_timedelta.csv'
     create_clean_csv(outputfile=outputfile)
-    [stationnames,stationID,stationURL,modelnames,modelID,modelURL,glidernames,gliderID,gliderURL,gliderioosURL,ifcbnames,ifcbID,ifcbURL]=get_assets()
+    [stationnames,stationID,stationURL,modelnames,modelID,modelURL,glidernames,gliderID,gliderURL,gliderioosURL,ifcbnames,ifcbID,ifcbURL,habnames,habID,habURL]=get_assets()
     for i in np.arange(0,len(stationnames)):
         print(stationID[i])
         timedelta_str=get_asset_delta(stationID[i],stationURL[i])
         write_to_csv(asset=stationnames[i],timedelta_str=timedelta_str,caloos_link=stationURL[i],outputfile=outputfile)
+    for i in np.arange(0,len(habnames)):
+        print(habID[i])
+        timedelta_str=get_asset_delta(habID[i],habURL[i])
+        write_to_csv(asset=habnames[i],timedelta_str=timedelta_str,caloos_link=habURL[i],outputfile=outputfile)
     for i in np.arange(0,len(modelnames)):
         print(modelID[i])
         timedelta_str=get_asset_delta(modelID[i],modelURL[i])

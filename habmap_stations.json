@@ -53,5 +53,15 @@
 		"stationName":"CalHABMAP CalPoly Pier",
 		"datasetID":"HABs-CalPolyPier",
 		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-CalPolyPier.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Morro Bay Back Bay",
+		"datasetID":"HABs-MorroBayBackBay",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-MorroBayBackBay.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Morro Bay Front Bay",
+		"datasetID":"HABs-MorroBayFrontBay",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-MorroBayFrontBay.csv?time"
 	}
 ]

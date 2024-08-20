@@ -168,9 +168,14 @@ def get_asset_delta(assetID,assetURL):
         # need to define the URL etc to read from
         # is it a glider or shore station? how can we tell?  assetID and assetURL don't really help
         # shore station
-        try:
+        caloos=assetURL.find('caloos')
+        cencoos=assetURL.find('cencoos')
+        sccoos=assetURL.find('sccoos')
+        #pdb.set_trace()
+        if (cencoos > 0) or (caloos > 0):
             asset_df=pd.read_csv('https://erddap.cencoos.org/erddap/tabledap/{}.csv?time'.format(assetID))
-        except:
+            # was this a HTTP error or the wrong URL?
+        if sccoos > 0:
             # this is for the HABMAP stations different ERDDAP
             asset_df=pd.read_csv('https://erddap.sccoos.org/erddap/tabledap/{}.csv?time'.format(assetID))
         #asset_df=pd.read_csv(f'https://erddap.cencoos.org/erddap/tabledap/{assetID}.csv?time')

@@ -1,0 +1,32 @@
+[
+    {
+        "modelName":"West Coast Operational Forecasting System (WCOFS) (AWS S3)",
+        "datasetID":"AWS_WCOFS",
+        "caloos_link":"http://thredds.cencoos.org/thredds/dodsC/AWS_WCOFS.nc"
+    },
+    {
+        "modelName":"ROMS NEMURO West Coast Nowcast (10km)",
+        "datasetID":"CCSNRT_NEMURO",
+        "caloos_link":"http://thredds.cencoos.org/thredds/dodsC/CCSNRT_NEMURO.nc"
+    },
+    {
+        "modelName":"ROMS West Coast Nowcast",
+        "datasetID":"UCSC",
+        "caloos_link":"http://thredds.cencoos.org/thredds/dodsC/UCSC.nc"
+    },
+    {
+        "modelName":"Harmful Algal Bloom (HAB) Predictions from the California-Harmful Algae Risk Mapping (C-HARM) System-Forecast V3",
+        "datasetID":"CHARM_FORECAST",
+        "caloos_link":"http://thredds.cencoos.org/thredds/dodsC/CHARM_FORECAST_V3.nc"
+    },
+    {
+        "modelName":"COAMPS CeNCOOS Forecast (4km)",
+        "datasetID":"COAMPS",
+        "caloos_link":"http://thredds.cencoos.org/thredds/dodsC/COAMPS.nc"
+    },
+    {
+        "modelName":"San Francisco Bay Ocean Forecast System (SFBOFS)- Regular Grid (AWS S3)",
+        "datasetID":"NOAA_OFS_SFBOFS",
+        "caloos_link":"http://thredds.cencoos.org/thredds/dodsC/NOAA_OFS_SFBOFS_regulargrid.nc"
+    }
+]

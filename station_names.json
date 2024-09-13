@@ -5,6 +5,16 @@
         "caloos_link": "https://data.caloos.org/#metadata/48035/station/data"
     },
     {
+        "stationName": "Moss Landing Marine Laboratories Weather Station",
+        "datasetID": "mlml_mlml_met",
+        "caloos_link": "https://data.caloos.org/#metadata/20724/station/data"
+    },
+    {
+        "stationName": "Monterey Wharf Real Time Sampling",
+        "datasetID": "monterey-wharf-real-time-samplin",
+        "caloos_link": "https://data.caloos.org/#metadata/130085/station/data"   
+    },
+    {
         "stationName": "Hog Island Oyster",
         "datasetID": "hog-island-hatchery",
         "caloos_link": "https://data.caloos.org/?#metadata/103542/station/data"
@@ -19,6 +29,11 @@
         "stationName": "Santa Cruz Municipal Wharf",
         "datasetID": "edu_ucsc_scwharf1",
         "caloos_link": "https://data.caloos.org/#metadata/48323/station/data"
+    },
+    {
+        "stationName": "Santa Cruz Wharf Weather Station",
+        "datasetID": "santa-cruz-wharf-weather-stat",
+        "caloos_link": "https://data.caloos.org/#metadata/102580/station/data"
     },
     {
         "stationName": "Trinidad Head, California",
@@ -46,11 +61,6 @@
         "caloos_link": "https://data.caloos.org/#metadata/20363/station/data"
     },
     {
-        "stationName": "Monterey Wharf Real Time Sampling",
-        "datasetID": "monterey-wharf-real-time-samplin",
-        "caloos_link": "https://data.caloos.org/#metadata/130085/station/data"   
-    },
-    {
         "stationName": "Morro Bay - BM1 T-Pier",
         "datasetID": "edu_calpoly_marine_morro",
         "caloos_link": "https://data.caloos.org/#metadata/20679/station/data"
@@ -61,13 +71,18 @@
         "caloos_link": "https://data.caloos.org/#metadata/100050/station/data"
     },
     {
+        "stationName": "Morro Bay - BS1 MET",
+        "datasetID": "edu_calpoly_marine_morro_bay_met",
+        "caloos_link": "https://data.caloos.org/#metadata/57163/station/data"
+    },
+    {
         "stationName": "San Luis Bay - Cal Poly Pier Shore (CPXC1)",
         "datasetID": "san-luis-bay-cal-poly-pier-shore",
         "caloos_link": "https://data.caloos.org/#metadata/103545/station"
     },
     {
-        "stationName": "Tuluwat (Indian Island)",
-        "datasetID": "wiyot_tribe_indianisland",
-        "caloos_link": "https://data.caloos.org/#metadata/64322/station/data"
+        "stationName": "San Luis Bay - Cal Poly Pier MET (CPXC1)",
+        "datasetID": "san-luis-bay-cal-poly-pier-met",
+        "caloos_link": "https://data.caloos.org/#metadata/103544/station/data"
     }
 ]

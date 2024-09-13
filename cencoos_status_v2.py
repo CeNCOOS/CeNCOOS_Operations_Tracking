@@ -50,24 +50,29 @@ def get_timedelta(erddapID):
     '''
 
     now = dt.datetime.now(tz=dt.timezone.utc)
-    df = pd.read_csv(f'https://erddap.sensors.axds.co/erddap/tabledap/{erddapID}.csv?time')
-    last_time = dt.datetime.strptime(df['time'].iloc[-1],'%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=dt.timezone.utc)
-    time_delta = now - last_time
+    try:
 
-    # parse for more meaningful output
-    days = time_delta.days
-    hours, remainder = divmod(time_delta.seconds, 3600)
-    minutes, _ = divmod(remainder, 60)
+        df = pd.read_csv(f'https://erddap.sensors.axds.co/erddap/tabledap/{erddapID}.csv?time')
+        last_time = dt.datetime.strptime(df['time'].iloc[-1],'%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=dt.timezone.utc)
+        time_delta = now - last_time
 
-    if days > 0:
-        timedelta_str = f"{days} days, {hours} hours, {minutes} minutes"
-    elif hours > 0:
-        timedelta_str = f"{hours} hours, {minutes} minutes"
-    elif minutes > 0:
-        timedelta_str = f"{minutes} minutes"
-    else:
-        timedelta_str = "< 1 minute"
-        
+        # parse for more meaningful output
+        days = time_delta.days
+        hours, remainder = divmod(time_delta.seconds, 3600)
+        minutes, _ = divmod(remainder, 60)
+
+        if days > 0:
+            timedelta_str = f"{days} days, {hours} hours, {minutes} minutes"
+        elif hours > 0:
+            timedelta_str = f"{hours} hours, {minutes} minutes"
+        elif minutes > 0:
+            timedelta_str = f"{minutes} minutes"
+        else:
+            timedelta_str = "< 1 minute"
+    
+    except Exception as e:
+        timedelta_str = 'Unable to access data for this site via ERDDAP'
+        print(f"Error: {e}")
         
     return timedelta_str
 

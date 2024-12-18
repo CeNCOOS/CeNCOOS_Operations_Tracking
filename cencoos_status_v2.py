@@ -8,6 +8,8 @@ import pandas as pd
 import datetime as dt
 import json
 import csv
+import gspread
+from google.oauth2.service_account import Credentials
 
 # Define functions
 def get_all_stations():
@@ -72,7 +74,6 @@ def get_timedelta(erddapID):
     
     except Exception as e:
         timedelta_str = 'Unable to access data for this site via ERDDAP'
-        print(f"Error: {e}")
         
     return timedelta_str
 
@@ -81,19 +82,45 @@ def create_clean_csv(outputfile):
      Creates a clean CSV with proper column headers
      '''
      with open(outputfile, 'w', newline='') as csvfile:
-            fieldnames = ['stationName', 'timeDelta', 'caloosLink']
+            fieldnames = ['stationName', 'timeDelta', 'caloosLink', 'gsheetsStatus']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
      
      
-def write_to_csv(station, timedelta_str, caloos_link, outputfile):
+def write_to_csv(station, timedelta_str, caloos_link, gsheets_status, outputfile):
     '''
     Writes the timedelta string values for each station as a new row in a CSV file.
     '''
     with open(outputfile, 'a', newline='') as csvfile:
-        fieldnames = ['stationName', 'timeDelta', 'caloosLink']
+        fieldnames = ['stationName', 'timeDelta', 'caloosLink', 'gsheetsStatus']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writerow({'stationName': station, 'timeDelta': timedelta_str, 'caloosLink': caloos_link})
+        writer.writerow({'stationName': station, 'timeDelta': timedelta_str, 'caloosLink': caloos_link, 'gsheetsStatus': gsheets_status})
+
+
+def get_gspread_status(station_file, station_name):
+    ''' 
+    Fetch the status of the station from the Google Sheet
+    https://docs.google.com/spreadsheets/d/1-HcKNYpRJmm41R9zXwUGOvWBo917Kh_1t_FLRAH9UlQ/edit?gid=0#gid=0
+    '''
+    scopes = [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive"
+    ]
+    creds = Credentials.from_service_account_file("gsheet/credentials.json", scopes=scopes)
+    client = gspread.authorize(creds)
+    sheet_id = "1-HcKNYpRJmm41R9zXwUGOvWBo917Kh_1t_FLRAH9UlQ"
+    sheet = client.open_by_key(sheet_id)
+
+    f = open(station_file)
+    data = json.load(f)
+
+    for station in data:
+        if station['stationName'] == station_name:
+            sheet_location = station['sheet_location']
+            cell_value = sheet.sheet1.cell(sheet_location, 2).value
+            print(cell_value)
+    
+    return cell_value
 
 if __name__ == "__main__":
     outputfile = 'stations_timedelta.csv'
@@ -103,7 +130,8 @@ if __name__ == "__main__":
         erddapid = get_erddapid(station_file = 'station_names.json', station_name = station)
         caloos_link = get_caloos_link(station_file = 'station_names.json', station_name = station)
         timedelta_str = get_timedelta(erddapID=erddapid)
-        write_to_csv(station = station, timedelta_str = timedelta_str, caloos_link = caloos_link, outputfile = outputfile)
+        gsheets_status = get_gspread_status(station_file = 'station_names.json', station_name = station)
+        write_to_csv(station = station, timedelta_str = timedelta_str, caloos_link = caloos_link, gsheets_status = gsheets_status, outputfile = outputfile)
     
     now = dt.datetime.now(tz=dt.timezone.utc)
     print(f'cencoos_status_v2.py ran successfully at {now} UTC')

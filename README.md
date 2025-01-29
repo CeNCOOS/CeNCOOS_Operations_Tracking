@@ -1,3 +1,18 @@
-This repository is for checking the up time of CeNCOOS funded sites.
-Currently the code checks the Axiom ERDDAP and the IOOS Glider DAC for times.
-The  IFCBs are also check to see if there has been any samples taken in the last day.
+### This repository is used for keeping track of the operation of CeNCOOS infrastructure and data products 
+
+**The types of datastreams that this code is currently checking regularly include:**
+- CeNCOOS funded shore stations
+- Data products developed in-house
+
+**The directory structure is as follows:**
+- `ag_grid` : JavaScript code to produce an interactive table for each datastream type using [AG Grid](https://www.ag-grid.com/), containing information about system status. This code is deployed on the CeNCOOS webserver.
+
+- `csv_output` : csv files that are updated regularly (hourly) with information about system status, to be fed into the AG-Grid. These csv files are produced on the concave virtual machine managed by MBARI.
+
+- `gsheet` : contains a JSON file and a Python script for accessing real-time information about shore station status from technicians' comments populated in a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1-HcKNYpRJmm41R9zXwUGOvWBo917Kh_1t_FLRAH9UlQ/edit?gid=0#gid=0). Information from this spreadsheet is added as a column in the shore station AG Grid table.
+
+- `json_files` : several JSON files used to access data fom each datatype (e.g., shore stations, models, gliders).
+
+- `testing` : various scripts and jupyter notebooks used for testing different stages in the pipeline.
+
+

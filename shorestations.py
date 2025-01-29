@@ -11,12 +11,13 @@ import csv
 import gspread
 from google.oauth2.service_account import Credentials
 
+station_file = 'json_files/station_names.json'
+
 # Define functions
-def get_all_stations():
+def get_all_stations(station_file):
     '''
     Fetch station names from the station_names.json file"
     '''
-    station_file = 'station_names.json'
     f = open(station_file)
     data = json.load(f)
     stationnames = []
@@ -118,19 +119,19 @@ def get_gspread_status(station_file, station_name):
         if station['stationName'] == station_name:
             sheet_location = station['sheet_location']
             cell_value = sheet.sheet1.cell(sheet_location, 2).value
-            print(cell_value)
     
     return cell_value
 
 if __name__ == "__main__":
-    outputfile = 'stations_timedelta.csv'
+    outputfile = 'csv_output/stations_timedelta.csv'
+    station_file = 'json_files/station_names.json'
     create_clean_csv(outputfile = outputfile)
 
-    for station in get_all_stations():
-        erddapid = get_erddapid(station_file = 'station_names.json', station_name = station)
-        caloos_link = get_caloos_link(station_file = 'station_names.json', station_name = station)
+    for station in get_all_stations(station_file=station_file):
+        erddapid = get_erddapid(station_file = station_file, station_name = station)
+        caloos_link = get_caloos_link(station_file = station_file, station_name = station)
         timedelta_str = get_timedelta(erddapID=erddapid)
-        gsheets_status = get_gspread_status(station_file = 'station_names.json', station_name = station)
+        gsheets_status = get_gspread_status(station_file = station_file, station_name = station)
         write_to_csv(station = station, timedelta_str = timedelta_str, caloos_link = caloos_link, gsheets_status = gsheets_status, outputfile = outputfile)
     
     now = dt.datetime.now(tz=dt.timezone.utc)

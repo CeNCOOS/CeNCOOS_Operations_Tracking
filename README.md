@@ -13,6 +13,8 @@
 
 - `json_files` : several JSON files used to access data fom each datatype (e.g., shore stations, models, gliders).
 
+- `scripts` : Python and bash scripts used for generating status csv files for different datastream types. 
+
 - `testing` : various scripts and jupyter notebooks used for testing different stages in the pipeline.
 
 

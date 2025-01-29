@@ -123,8 +123,9 @@ def get_gspread_status(station_file, station_name):
     return cell_value
 
 if __name__ == "__main__":
-    outputfile = 'csv_output/stations_timedelta.csv'
     station_file = 'json_files/station_names.json'
+    outputfile = 'csv_output/stations_timedelta.csv'
+
     create_clean_csv(outputfile = outputfile)
 
     for station in get_all_stations(station_file=station_file):

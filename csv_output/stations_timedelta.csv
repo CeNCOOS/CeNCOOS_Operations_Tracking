@@ -1,18 +1,18 @@
 stationName,timeDelta,caloosLink,gsheetsStatus
-Moss Landing Marine Laboratories Seawater Intake Monitoring Station (MLSC1),12 minutes,https://data.caloos.org/#metadata/48035/station/data,"Up, no nitrate. SUNA servicing"
-Moss Landing Marine Laboratories Weather Station,14 minutes,https://data.caloos.org/#metadata/20724/station/data,"up, no PAR"
-Monterey Wharf Real Time Sampling,"10 days, 0 hours, 11 minutes",https://data.caloos.org/#metadata/130085/station/data,"up, ch-a and NTU down"
-Hog Island Oyster,"6 hours, 52 minutes",https://data.caloos.org/?#metadata/103542/station/data,
-Romberg Tiburon Center Pier,"2 hours, 36 minutes",https://data.caloos.org/?&sensor_version=v2cache#metadata/103547/station/data,"Up, no pH sensor"
-Santa Cruz Municipal Wharf,"84 days, 12 hours, 27 minutes",https://data.caloos.org/#metadata/48323/station/data,Up - CT only (weekly)
-Santa Cruz Wharf Weather Station,"3 hours, 51 minutes",https://data.caloos.org/#metadata/102580/station/data,Up
-"Trinidad Head, California",21 minutes,https://data.caloos.org/#metadata/48097/station/data,
-Bodega Marine Laboratory seawater intake,"454 days, 3 hours, 33 minutes",https://data.caloos.org/#metadata/19946/station/data,
-Carquinez,"165 days, 20 hours, 51 minutes",https://data.caloos.org/?&sensor_version=v2cache#metadata/103546/station/data,"Down, waiting on replacement HydroCAT from SeaBird, expected up in early January"
-Fort Point Pier,"454 days, 7 hours, 4 minutes",https://data.caloos.org/#metadata/19947/station/data,
-Humboldt Bay Pier,"45 days, 20 hours, 22 minutes",https://data.caloos.org/#metadata/20363/station/data,
-Morro Bay - BM1 T-Pier,"65 days, 12 hours, 42 minutes",https://data.caloos.org/#metadata/20679/station/data,
-Morro Bay - BS1,"65 days, 12 hours, 32 minutes",https://data.caloos.org/#metadata/100050/station/data,"Up, Data not transferring"
-Morro Bay - BS1 MET,"65 days, 12 hours, 32 minutes",https://data.caloos.org/#metadata/57163/station/data,"Up, Data not transferring"
-San Luis Bay - Cal Poly Pier Shore (CPXC1),"3 hours, 38 minutes",https://data.caloos.org/#metadata/103545/station,Up
-San Luis Bay - Cal Poly Pier MET (CPXC1),"2 hours, 48 minutes",https://data.caloos.org/#metadata/103544/station/data,"Down, hardware issue"
+Moss Landing Marine Laboratories Seawater Intake Monitoring Station (MLSC1),22 minutes,https://data.caloos.org/#metadata/48035/station/data,"Up, no nitrate. SUNA servicing"
+Moss Landing Marine Laboratories Weather Station,25 minutes,https://data.caloos.org/#metadata/20724/station/data,"up, no PAR"
+Monterey Wharf Real Time Sampling,"10 days, 0 hours, 22 minutes",https://data.caloos.org/#metadata/130085/station/data,"up, ch-a and NTU down"
+Hog Island Oyster,"7 hours, 3 minutes",https://data.caloos.org/?#metadata/103542/station/data,
+Romberg Tiburon Center Pier,32 minutes,https://data.caloos.org/?&sensor_version=v2cache#metadata/103547/station/data,"Up, no pH sensor"
+Santa Cruz Municipal Wharf,"84 days, 12 hours, 38 minutes",https://data.caloos.org/#metadata/48323/station/data,Up - CT only (weekly)
+Santa Cruz Wharf Weather Station,"4 hours, 2 minutes",https://data.caloos.org/#metadata/102580/station/data,Up
+"Trinidad Head, California",17 minutes,https://data.caloos.org/#metadata/48097/station/data,
+Bodega Marine Laboratory seawater intake,"454 days, 3 hours, 44 minutes",https://data.caloos.org/#metadata/19946/station/data,
+Carquinez,"165 days, 21 hours, 2 minutes",https://data.caloos.org/?&sensor_version=v2cache#metadata/103546/station/data,"Down, waiting on replacement HydroCAT from SeaBird, expected up in early January"
+Fort Point Pier,"454 days, 7 hours, 15 minutes",https://data.caloos.org/#metadata/19947/station/data,
+Humboldt Bay Pier,"45 days, 20 hours, 33 minutes",https://data.caloos.org/#metadata/20363/station/data,
+Morro Bay - BM1 T-Pier,"65 days, 12 hours, 53 minutes",https://data.caloos.org/#metadata/20679/station/data,
+Morro Bay - BS1,"65 days, 12 hours, 43 minutes",https://data.caloos.org/#metadata/100050/station/data,"Up, Data not transferring"
+Morro Bay - BS1 MET,"65 days, 12 hours, 43 minutes",https://data.caloos.org/#metadata/57163/station/data,"Up, Data not transferring"
+San Luis Bay - Cal Poly Pier Shore (CPXC1),"3 hours, 49 minutes",https://data.caloos.org/#metadata/103545/station,Up
+San Luis Bay - Cal Poly Pier MET (CPXC1),"2 hours, 59 minutes",https://data.caloos.org/#metadata/103544/station/data,"Down, hardware issue"

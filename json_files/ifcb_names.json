@@ -1,0 +1,27 @@
+[
+	{
+		"IFCBName":"IFCB Santa Cruz Wharf",
+		"datasetID":"santa-cruz-municipal-wharf",
+		"caloos_link":"https://ifcb.caloos.org/santa-cruz-municipal-wharf"
+	},    
+	{
+		"IFCBName":"IFCB Bodega Marine Lab",
+		"datasetID":"bodega-marine-lab",
+		"caloos_link":"https://ifcb.caloos.org/bodega-marine-lab"
+	},
+	{
+		"IFCBName":"IFCB Cal Poly Humboldt",
+		"datasetID":"cal-poly-humboldt-hioc",
+		"caloos_link":"https://ifcb.caloos.org/cal-poly-humboldt-hioc"
+	},
+	{
+		"IFCBName":"IFCB MBARI Power Buoy",
+		"datasetID":"mbari-power-buoy",
+		"caloos_link":"https://ifcb.caloos.org/mbari-power-buoy"
+	},
+	{
+		"IFCBName":"IFCB San Francisco Pier 17",
+		"datasetID":"san-francisco-pier-17",
+		"caloos_link":"https://ifcb.caloos.org/san-francisco-pier-17"
+	}
+]

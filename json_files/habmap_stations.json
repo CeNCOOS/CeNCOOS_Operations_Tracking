@@ -1,0 +1,67 @@
+[
+	{
+		"stationName":"CalHABMAP Humboldt",
+		"datasetID":"HABs-Humboldt",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-Humboldt.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Trinidad Pier",
+		"datasetID":"HABs-TrinidadPier",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-TrinidadPier.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Humboldt South Bay",
+		"datasetID":"HABs-HumboldtSouthBay",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-HumboldtSouthBay.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Bodega Marine Lab Buoy",
+		"datasetID":"HABs-BodegaMarineLabBuoy",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-BodegaMarineLabBuoy.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Bodega Marine Lab",
+		"datasetID":"HABs-BodegaMarineLab",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-BodegaMarineLab.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Tomales Bay Mouth",
+		"datasetID":"HABs-TomalesBayMouth",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-TomalesBayMouth.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Tomales Bay Mid-Channel Buoy",
+		"datasetID":"HABs-TomalesBayMid-ChannelBuoy",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-TomalesBayMid-ChannelBuoy.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Inner Tomales Bay",
+		"datasetID":"HABs-InnerTomalesBay",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-InnerTomalesBay.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Santa Cruz Wharf",
+		"datasetID":"HABs-SantaCruzWharf",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-SantaCruzWharf.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Monterey Wharf",
+		"datasetID":"HABs-MontereyWharf",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-MontereyWharf.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP CalPoly Pier",
+		"datasetID":"HABs-CalPolyPier",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-CalPolyPier.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Morro Bay Back Bay",
+		"datasetID":"HABs-MorroBayBackBay",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-MorroBayBackBay.csv?time"
+	},
+	{
+		"stationName":"CalHABMAP Morro Bay Front Bay",
+		"datasetID":"HABs-MorroBayFrontBay",
+		"caloos_link":"https://erddap.sccoos.org/erddap/tabledap/HABs-MorroBayFrontBay.csv?time"
+	}
+]

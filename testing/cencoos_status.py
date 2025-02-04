@@ -1,7 +1,7 @@
 # Code to check the status of CeNCOOS funded project ingest in the portal.
 # Also to be use to monitor for problems/staleness.
 #
-# load some modules for use to read remote data and access time
+# load some modules for use to read remote data and access time 
 #
 import numpy as np
 import xarray as xr

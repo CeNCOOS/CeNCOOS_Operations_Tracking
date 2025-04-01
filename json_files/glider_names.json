@@ -1,20 +1,20 @@
 [
     {
         "gliderName":"Trinidad (OSU 686)",
-        "datasetID":"OSU686-20240412T0000",
-        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/OSU686-20240412T0000.csv",
-        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/OSU686-20240412T0000.csv"
+        "datasetID":"OSU266-20250307T0000",
+        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/OSU266-20250307T0000.csv",
+        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/OSU266-20250307T0000.csv"
     },
     {
         "gliderName":"Pt. Arena, line 56 glider",
-        "datasetID":"sp028-20240403T1628",
-        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp028-20240403T1628.csv",
-        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/sp028-20240403T1628.csv"
+        "datasetID":"sp020-20250122T1433",
+        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp020-20250122T1433.csv",
+        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/sp020-20250122T1433.csv"
     },
     {
         "gliderName":"Monterey, Line 66 glider",
-        "datasetID":"sp025-20240515T2040",
-        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp025-20240515T2040.csv",
-        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/sp025-20240515T2040.csv"
+        "datasetID":"sp025-20241218T2016",
+        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp025-20241218T2016.csv",
+        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/sp025-202412118T2016.csv"
     }
 ]

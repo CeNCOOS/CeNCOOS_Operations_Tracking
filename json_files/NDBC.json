@@ -1,0 +1,173 @@
+[
+	{
+		"NDBCName":"Half Moon Bay",
+		"datasetID":"gov-ndbc-46012",
+		"ioos_link":"https://ndbc.noaa.gov/data/realtime2/46012.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/gov-ndbc-46012.csv?time"
+	},	
+	{
+		"NDBCName":"Bodega Bay",
+		"datasetID":"wmo_46013",
+		"ioos_link":"https://ndbc.noaa.gov/data/realtime2/46013.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/wmo_46013.csv?time"
+	},
+	{
+		"NDBCName":"Point Arena",
+		"datasetID":"gov-ndbc-46014",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/46014.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/gov-ndbc-46014.csv?time"
+	},
+	{
+		"NDBCName":"Eel River",
+		"datasetID":"gov-ndbc-46022",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/46022.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/gov-ndbc-46022.csv?time"
+	},
+	{
+		"NDBCName":"San Francisco",
+		"datasetID":"gov-ndbc-46026",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/46026.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/gov-ndbc-46026.csv?time"
+	},
+	{
+		"NDBCName":"St Georges",
+		"datasetID":"gov-ndbc-46027",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/46027.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/gov-ndbc-46027.csv?time"
+	},
+	{
+		"NDBCName":"Cape San Martin",
+		"datasetID":"gov-ndbc-46028",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/46028.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/gov-ndbc-46028.csv?time"
+	},
+	{
+		"NDBCName":"Monterey",
+		"datasetID":"wmo_46042",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/46042.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/wmo_46042.csv?time"
+	},
+	{
+		"NDBCName":"West California",
+		"datasetID":"gov-ndbc-46059",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/46059.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/gov-ndbc-46059.csv?time"
+	},
+	{
+		"NDBCName":"Oakland Berth 34",
+		"datasetID":"noaa_nos_co_ops_9414776",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/OKXC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9414776.csv?time"
+	},
+	{
+		"NDBCName":"Oakland Berth 34 Vis",
+		"datasetID":"noaa_nos_co_ops_9414797",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/OBXC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9414797.csv?time"
+	},
+	{
+		"NDBCName":"Oakland Middle Harbor",
+		"datasetID":"noaa_nos_co_ops_9414769",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/OMHC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9414769.csv?time"
+	},
+	{
+		"NDBCName":"Pittsburg, Suisun Bay",
+		"datasetID":"noaa_nos_co_ops_9415115",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/PSBC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9415115.csv?time"
+	},
+	{
+		"NDBCName":"Point Portrero, Richmond",
+		"datasetID":"noaa_nos_co_ops_9414847",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/PPXC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9414847.csv?time"
+	},
+	{
+		"NDBCName":"Pier 17 Vis",
+		"datasetID":"noaa_nos_co_ops_9414296",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/PXSC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9414296.csv?time"
+	},
+	{
+		"NDBCName":"San Francisco Pier 1",
+		"datasetID":"noaa_nos_co_ops_9414311",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/PXOC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9414311.csv?time"
+	},
+	{
+		"NDBCName":"Union Pacific Railroad Bridge",
+		"datasetID":"noaa_nos_co_ops_9415118",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/UPBC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9415118.csv?time"
+	},
+	{
+		"NDBCName":"Oakland Berth 67",
+		"datasetID":"noaa_nos_co_ops_9414763",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/LNDC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9414763.csv?time"
+	},
+	{
+		"NDBCName":"Alameda",
+		"datasetID":"noaa_nos_co_ops_9414750",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/AAMC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9414750.csv?time"
+	},
+	{
+		"NDBCName":"Martinez-Amorco Pier",
+		"datasetID":"noaa_nos_co_ops_9415102",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/MZXC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9415102.csv?time"
+	},
+	{
+		"NDBCName":"Monterey",
+		"datasetID":"noaa_nos_co_ops_9413450",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/MEYC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9413450.csv?time"
+	},
+	{
+		"NDBCName":"Point Reyes",
+		"datasetID":"noaa_nos_co_ops_9415020",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/PRYC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9415020.csv?time"
+	},
+	{
+		"NDBCName":"Port Chicago",
+		"datasetID":"noaa_nos_co_ops_9415144",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/PCOC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9415144.csv?time"
+	},
+	{
+		"NDBCName":"Port San Luis",
+		"datasetID":"noaa_nos_co_ops_9412110",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/PSLC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9412110.csv?time"
+	},
+	{
+		"NDBCName":"Redwood City",
+		"datasetID":"noaa_nos_co_ops_9414523",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/RTYC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9414523.csv?time"
+	},
+	{
+		"NDBCName":"Richmond",
+		"datasetID":"noaa_nos_co_ops_9414863",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/RCMC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9414863.csv?time"
+	},
+	{
+		"NDBCName":"San Francisco",
+		"datasetID":"noaa_nos_co_ops_9414290",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/FTPC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9414290.csv?time"
+	},
+	{
+		"NDBCName":"Arena Cove",
+		"datasetID":"noaa_nos_co_ops_9416841",
+		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/ANVC1.txt",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/noaa_nos_co_ops_9416841.csv?time"
+	}
+]
+	
+	
+	

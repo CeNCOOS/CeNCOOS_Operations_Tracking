@@ -1,105 +1,93 @@
 [
     {
-        "stationName": "Moss Landing Marine Laboratories Seawater Intake Monitoring Station (MLSC1)",
+        "stationName": "Moss Landing Marine Laboratories Seawater Intake (NDBC:MLSC1)",
         "datasetID": "mlml_mlml_sea",
-        "caloos_link": "https://data.caloos.org/#metadata/48035/station/data",
-        "sheet_location": 3
+        "caloos_link": "https://data.caloos.org/#metadata/48035/station/data"
     },
     {
-        "stationName": "Moss Landing Marine Laboratories Weather Station",
+        "stationName": "Moss Langing Marine Laboratories Weather Station (NDBC:MLSC1)",
         "datasetID": "mlml_mlml_met",
-        "caloos_link": "https://data.caloos.org/#metadata/20724/station/data",
-        "sheet_location": 4 
+        "caloos_link":"https://data.caloos.org/#metadata/20724/station/data"
     },
     {
-        "stationName": "Monterey Wharf Real Time Sampling",
-        "datasetID": "monterey-wharf-real-time-samplin",
-        "caloos_link": "https://data.caloos.org/#metadata/130085/station/data",
-        "sheet_location": 5   
-    },
-    {
-        "stationName": "Hog Island Oyster",
+        "stationName": "Hog Island Oyster Hatchery",
         "datasetID": "hog-island-hatchery",
-        "caloos_link": "https://data.caloos.org/?#metadata/103542/station/data",
-        "sheet_location": 6
+        "caloos_link": "https://data.caloos.org/?#metadata/103542/station/data"
 
     },
     {
         "stationName": "Romberg Tiburon Center Pier",
         "datasetID": "tiburon-water-tibc1",
-        "caloos_link": "https://data.caloos.org/?&sensor_version=v2cache#metadata/103547/station/data",
-        "sheet_location": 7
+        "caloos_link": "https://data.caloos.org/?&sensor_version=v2cache#metadata/103547/station/data"
     },
     {
         "stationName": "Santa Cruz Municipal Wharf",
         "datasetID": "edu_ucsc_scwharf1",
-        "caloos_link": "https://data.caloos.org/#metadata/48323/station/data",
-        "sheet_location": 8
+        "caloos_link": "https://data.caloos.org/#metadata/48323/station/data"
     },
     {
-        "stationName": "Santa Cruz Wharf Weather Station",
-        "datasetID": "santa-cruz-wharf-weather-stat",
-        "caloos_link": "https://data.caloos.org/#metadata/102580/station/data",
-        "sheet_location": 9
+	"stationName": "Santa Cruz Municipal Wharf Weather Station",
+	"datasetID":"santa-cruz-wharf-weather-stat",
+	"caloos_link":"https://data.caloos.org/#metadata/102580/station/data"
     },
     {
-        "stationName": "Trinidad Head, California",
+        "stationName": "Trinidad Pier (NDBC: TDPC1)",
         "datasetID": "edu_humboldt_tdp",
-        "caloos_link": "https://data.caloos.org/#metadata/48097/station/data",
-        "sheet_location": 10
+        "caloos_link": "https://data.caloos.org/#metadata/48097/station/data"
     },
     {
-        "stationName": "Bodega Marine Laboratory seawater intake",
+        "stationName": "Bodega Marine Laboratory Seawater Intake (NDBC: BDXC1)",
         "datasetID": "bodega-bay-bml_wts",
-        "caloos_link": "https://data.caloos.org/#metadata/19946/station/data",
-        "sheet_location": 11
+        "caloos_link": "https://data.caloos.org/#metadata/19946/station/data"
     },
     {
-        "stationName": "Carquinez",
+        "stationName": "Carquinez Pier (NDBC: COUC1)",
         "datasetID": "carquinez",
-        "caloos_link": "https://data.caloos.org/?&sensor_version=v2cache#metadata/103546/station/data",
-        "sheet_location": 12
+        "caloos_link": "https://data.caloos.org/?&sensor_version=v2cache#metadata/103546/station/data"
     },
     {
-        "stationName": "Fort Point Pier",
+        "stationName": "Fort Point Pier (NDBC: FPXC1)",
         "datasetID": "fort-point",
-        "caloos_link": "https://data.caloos.org/#metadata/19947/station/data",
-        "sheet_location": 13
+        "caloos_link": "https://data.caloos.org/#metadata/19947/station/data"
     },
     {
-        "stationName": "Humboldt Bay Pier",
+        "stationName": "Humboldt Bay Pier (NDBC: HBXC1)",
         "datasetID": "edu_humboldt_humboldt",
-        "caloos_link": "https://data.caloos.org/#metadata/20363/station/data",
-        "sheet_location": 14
+        "caloos_link": "https://data.caloos.org/#metadata/20363/station/data"
     },
     {
-        "stationName": "Morro Bay - BM1 T-Pier",
+        "stationName": "Monterey Wharf",
+        "datasetID": "monterey-wharf-real-time-samplin",
+        "caloos_link": "https://data.caloos.org/#metadata/130085/station/data"   
+    },
+    {
+        "stationName": "Morro Bay Pier (NDBC: MBXC1)",
         "datasetID": "edu_calpoly_marine_morro",
-        "caloos_link": "https://data.caloos.org/#metadata/20679/station/data",
-        "sheet_location": 15
+        "caloos_link": "https://data.caloos.org/#metadata/20679/station/data"
     },
     {
-        "stationName": "Morro Bay - BS1",
+        "stationName": "Morrow Bay (Back Bay) Weather Station",
+        "datasetID":"edu_calpoly_marine_morro_bay_met",
+        "caloos_link":"https://data.caloos.org/#metadata/57163/station/data"
+    },
+    {
+        "stationName": "Morro Bay (Back Bay)",
         "datasetID": "morro-bay-bs1",
-        "caloos_link": "https://data.caloos.org/#metadata/100050/station/data",
-        "sheet_location": 16
+        "caloos_link": "https://data.caloos.org/#metadata/100050/station/data"
     },
     {
-        "stationName": "Morro Bay - BS1 MET",
-        "datasetID": "edu_calpoly_marine_morro_bay_met",
-        "caloos_link": "https://data.caloos.org/#metadata/57163/station/data",
-        "sheet_location": 17
-    },
-    {
-        "stationName": "San Luis Bay - Cal Poly Pier Shore (CPXC1)",
+        "stationName": "San Luis Bay Cal Poly Pier (NDBC: CPXC1)",
         "datasetID": "san-luis-bay-cal-poly-pier-shore",
-        "caloos_link": "https://data.caloos.org/#metadata/103545/station",
-        "sheet_location": 18
+        "caloos_link": "https://data.caloos.org/#metadata/103545/station/data"
     },
     {
-        "stationName": "San Luis Bay - Cal Poly Pier MET (CPXC1)",
+        "stationName": "San Luis Bay Cal Poly Pier Weather Station (NDBC: CPXC1)",
         "datasetID": "san-luis-bay-cal-poly-pier-met",
-        "caloos_link": "https://data.caloos.org/#metadata/103544/station/data",
-        "sheet_location": 19
+        "caloos_link": "https://data.caloos.org/#metadata/103544/station/data"
+    },
+    {
+        "stationName": "Tuluwat Island Pier",
+        "datasetID": "wiyot_tribe_indianisland",
+        "caloos_link": "https://data.caloos.org/#metadata/64322/station/data"
     }
 ]

@@ -13,8 +13,8 @@
     },
     {
         "gliderName":"Monterey, Line 66 glider",
-        "datasetID":"sp025-20241218T2016",
-        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp025-20241218T2016.csv",
-        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/sp025-202412118T2016.csv"
+        "datasetID":"sp064-20250403T1816",
+        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp064-20250403T1816.csv",
+        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/sp064-20250403T1816.csv"
     }
 ]

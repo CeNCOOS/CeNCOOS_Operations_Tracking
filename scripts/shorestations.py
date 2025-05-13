@@ -74,6 +74,7 @@ def get_timedelta(erddapID):
             timedelta_str = "< 1 minute"
     
     except Exception as e:
+        #print(e)
         timedelta_str = 'Unable to access data for this site via ERDDAP'
         
     return timedelta_str
@@ -118,7 +119,9 @@ def get_gspread_status(station_file, station_name):
     for station in data:
         if station['stationName'] == station_name:
             sheet_location = station['sheet_location']
-            cell_value = sheet.sheet1.cell(sheet_location, 2).value
+            worksheet = sheet.worksheet("ShoreStations")
+            cell_value = worksheet.cell(sheet_location, 2).value
+            #cell_value = sheet.sheet1.cell(sheet_location, 2).value
     
     return cell_value
 

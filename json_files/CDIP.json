@@ -1,0 +1,63 @@
+[
+	{
+		"CDIPName":"Cape Mendocino",
+		"datasetID":"edu_ucsd_cdip_094",
+		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/094p1_rt.nc",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/edu_ucsd_cdip_094.csv?time"
+	},
+	{
+		"CDIPName":"Point Reyes",
+		"datasetID":"edu_ucsd_cdip_029",
+		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/029p1_rt.nc",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/edu_ucsd_cdip_029.csv?time"
+	},
+	{
+		"CDIPName":"San Francisco Bar",
+		"datasetID":"edu_ucsd_cdip_142",
+		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/142p1_rt.nc",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/edu_ucsd_cdip_142.csv?time"
+	},
+	{
+		"CDIPName":"Point Sur",
+		"datasetID":"edu_ucsd_cdip_157",
+		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/157p1_rt.nc",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/edu_ucsd_cdip_157.csv?time"
+	},
+	{
+		"CDIPName":"Cabrillo Point",
+		"datasetID":"edu_ucsd_cdip_158",
+		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/158p1_rt.nc",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/edu_ucsd_cdip_158.csv?time"
+	},
+	{
+		"CDIPName":"Humboldt North Spit",
+		"datasetID":"edu_ucsd_cdip_168",
+		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/168p1_rt.nc",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/edu_ucsd_cdip_168.csv?time"
+	},
+	{
+		"CDIPName":"Santa Cruz Basin",
+		"datasetID":"203-santa-cruz-basin-ca-46251",
+		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/203p1_rt.nc",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/203-santa-cruz-basin-ca-46251.csv?time"
+	},
+	{
+		"CDIPName":"Santa Lucia Escarpment",
+		"datasetID":"222-santa-lucia-escarpment-ca-46",
+		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/222p1_rt.nc",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/222-santa-lucia-escarpment-ca-46.csv?time"
+	},
+	{
+		"CDIPName":"Pajaro Beach",
+		"datasetID":"edu_ucsd_cdip_266",
+		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/266p1_rt.nc",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/edu_ucsd_cdip_266.csv?time"
+	},
+	{
+		"CDIPName":"Pajaro Beach South",
+		"datasetID":"edu_ucsd_cdip_267",
+		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/267p1_rt.nc",
+		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/edu_ucsd_cdip_267.csv?time"
+	}
+]
+		

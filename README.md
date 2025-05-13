@@ -1,4 +1,6 @@
 ### This repository is used for keeping track of the operation of CeNCOOS infrastructure and data products 
+The repository consists of various scripts for each CeNCOOS system that needs to be monitored.  Some systems will need to be updated as endpoints change. 
+In particular, each glider swap requires and update of the glider_names.json file.  When the HF Radar endpoint changes those URLS will have to be updated also.
 
 **The types of datastreams that this code is currently checking regularly include:**
 - CeNCOOS funded shore stations

@@ -1,0 +1,152 @@
+[
+	{
+		"hfrName":"ANGL",
+		"datasetID":"Angle Island",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_ANGL.csv?time"
+	},
+	{
+		"hfrName":"BIGC",
+		"datasetID":"Big Creek",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_BIGC.csv?time"
+	},
+	{
+		"hfrName":"BML1",
+		"datasetID":"Bodega Marine Lab. Standard Range",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/BML_BML1.csv?time"
+	},
+	{
+		"hfrName":"BMLR",
+		"datasetID":"Bodega Marine Lab. Long Range",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/BML_BMLR.csv?time"
+	},
+		{
+		"hfrName":"BRAG",
+		"datasetID":"Fort Bragg",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/BML_BRAG.csv?time"
+	},
+	{
+		"hfrName":"CRIS",
+		"datasetID":"Crissy Field",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_CRIS.csv?time"
+	},
+	{
+		"hfrName":"EXPL",
+		"datasetID":"Exploratorium",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_EXPL.csv?time"
+	},
+	{
+		"hfrName":"FORT",
+		"datasetID":"Fort Point",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_FORT.csv?time"
+	},
+	{
+		"hfrName":"GCVE",
+		"datasetID":"Gerstel Cove",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/BML_GCVE.csv?time"
+	},
+	{
+		"hfrName":"GCYN",
+		"datasetID":"Granite Canyon",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_GCYN.csv?time"
+	},
+	{
+		"hfrName":"MBAC",
+		"datasetID":"Monterey Bay Academy",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_MBAC.csv?time"
+	},
+	{
+		"hfrName":"MLML",
+		"datasetID":"Moss Landing Marine Lab.",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_MLML.csv?time"
+	},
+	{
+		"hfrName":"MONT",
+		"datasetID":"Montera",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_MONT.csv?time"
+	},
+	{
+		"hfrName":"PAFS",
+		"datasetID":"Point Arena Air Force Station ",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/BML_PAFS.csv?time"
+	},
+	{
+		"hfrName":"PBON",
+		"datasetID":"Point Bonita",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_PBON.csv?time"
+	},
+	{
+		"hfrName":"PILR",
+		"datasetID":"Pilar Point",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_PILR.csv?time"
+	},
+	{
+		"hfrName":"PPNS",
+		"datasetID":"Point Pinos",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_PPNS.csv?time"
+	},
+	{
+		"hfrName":"PREY",
+		"datasetID":"Point Reyes",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/BML_PREY.csv?time"
+	},
+	{
+		"hfrName":"PSLR",
+		"datasetID":"Point Sur Long Range",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_PSLR.csv?time"
+	},
+	{
+		"hfrName":"RTC1",
+		"datasetID":"Romberg Tiburon Center (EOS)",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_RTC1.csv?time"
+	},
+	{
+		"hfrName":"SAUS",
+		"datasetID":"Sausalito",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_SAUS.csv?time"
+	},
+	{
+		"hfrName":"SCRZ",
+		"datasetID":"Santa Cruz",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/CODAR_SCRZ.csv?time"
+	},
+	{
+		"hfrName":"SHEL",
+		"datasetID":"Shelter Cove",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/BML_SHEL.csv?time"
+	},
+	{
+		"hfrName":"SLID",
+		"datasetID":"Slide Ranch",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/BML_SLID.csv?time"
+	},
+	{
+		"hfrName":"SMOA",
+		"datasetID":"Samoa",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/BML_SMOA.csv?time"
+	},
+	{
+		"hfrName":"TRIN",
+		"datasetID":"Trinidad",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/BML_TRIN.csv?time"
+	},
+	{
+		"hfrName":"DCLR",
+		"datasetID":"Diablo Canyon Long Range",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/SLO_DCLR.csv?time"
+	},
+	{
+		"hfrName":"DCSR",
+		"datasetID":"Diablo Canyon Standard Range",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/SLO_DCSR.csv?time"
+	},
+	{
+		"hfrName":"ESTR",
+		"datasetID":"Estero",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/SLO_ESTR.csv?time"
+	},
+	{
+		"hfrName":"RAGG",
+		"datasetID":"Ragged Point",
+		"caloos_link":"https://hfradar.ioos.us/radials-erddap/erddap/tabledap/SLO_RAGG.csv?time"
+	}
+]

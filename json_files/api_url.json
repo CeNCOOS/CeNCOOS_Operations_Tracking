@@ -1,0 +1,14 @@
+[
+    {
+        "apiName":"San Francisco Bay Ocean Forecast System (SFBOFS)",
+        "datasetID":"SFBOFS",
+        "caloos_link":"https://data.caloos.org/#module-metadata/ad667e1d-4b94-4088-8fa8-7a5c55473589",
+        "apiURL":"https://sfbofs-api.srv.axds.co/currents/times"
+        },
+    {
+        "apiName":"Coupled Ocean/Atmosphere Mesoscale Prediction System (COAMPS)",
+        "datasetID":"COAMPS",
+        "caloos_link":"https://data.caloos.org/#module-metadata/5d7e406a-d38d-482d-ab4f-71c8bb3d15b5",
+        "apiURL":"https://stage-sfbofs-api.srv.axds.co/v2/datasets/coamps/wind_velocity/times"
+        }
+]

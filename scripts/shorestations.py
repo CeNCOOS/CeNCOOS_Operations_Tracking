@@ -112,18 +112,27 @@ def get_gspread_status(station_file, station_name):
     client = gspread.authorize(creds)
     sheet_id = "1-HcKNYpRJmm41R9zXwUGOvWBo917Kh_1t_FLRAH9UlQ"
     sheet = client.open_by_key(sheet_id)
+    worksheet = sheet.worksheet("ShoreStations")
 
-    f = open(station_file)
-    data = json.load(f)
+    # Load JSON station file
+    with open(station_file) as f:
+        data = json.load(f)
+
+    # Get column A values (station names from the sheet)
+    sheet_names = worksheet.col_values(1)
 
     for station in data:
-        if station['stationName'] == station_name:
-            sheet_location = station['sheet_location']
-            worksheet = sheet.worksheet("ShoreStations")
-            cell_value = worksheet.cell(sheet_location, 2).value
-            #cell_value = sheet.sheet1.cell(sheet_location, 2).value
-    
-    return cell_value
+        try:
+            row_idx = sheet_names.index(station['stationName']) + 1
+            if station['stationName'] == station_name:
+                cell_value = worksheet.cell(row_idx, 2).value
+                return cell_value
+        except ValueError:
+            # station['stationName'] not found in sheet_names
+            pass
+
+    # No match found
+    return None
 
 if __name__ == "__main__":
     station_file = 'json_files/station_names.json'

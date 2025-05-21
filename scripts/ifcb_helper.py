@@ -41,6 +41,8 @@ def get_bins_in_range(start_date, end_date, dataset_name, base_dashboard_url='ht
         try:
             content["pid"]=content["pid"].map(lambda x: x.lstrip(f"{base_dashboard_url}/{dataset_name}/"))
             content=content["pid"]
+            content=content.sort_values()
+            #pdb.set_trace()
             return(content)
         except:
             if content.empty:

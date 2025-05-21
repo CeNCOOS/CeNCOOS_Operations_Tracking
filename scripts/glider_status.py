@@ -2,7 +2,6 @@ import json
 import datetime as dt
 import pandas as pd
 import numpy as np
-import xarray as xr
 import netCDF4
 import time
 from time import mktime
@@ -15,6 +14,8 @@ from ifcb_helper import get_bins_in_range, get_datasets
 #from sfbofs_api_times import sfbofs_api_times
 import os
 from asset_functions import create_clean_csv, write_to_csv, get_assets
+import gspread
+from google.oauth2.service_account import Credentials
 
 def get_asset_delta(assetID,assetURL):
     '''
@@ -73,16 +74,50 @@ def get_asset_delta(assetID,assetURL):
     else:
         timedelta_str = "< 1 minute"
     return timedelta_str
+
+def get_gspread_status(glider_file, glider_name):
+    ''' 
+    Fetch the status of the station from the Google Sheet
+    https://docs.google.com/spreadsheets/d/1-HcKNYpRJmm41R9zXwUGOvWBo917Kh_1t_FLRAH9UlQ/edit?gid=0#gid=0
+    '''
+    scopes = [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive"
+    ]
+    creds = Credentials.from_service_account_file("/home/flbahr/json_files/credentials.json", scopes=scopes)
+    client = gspread.authorize(creds)
+    sheet_id = "1-HcKNYpRJmm41R9zXwUGOvWBo917Kh_1t_FLRAH9UlQ"
+    sheet = client.open_by_key(sheet_id)
+
+    f = open(glider_file)
+    data = json.load(f)
+    x=sheet.worksheet('Gliders').col_values(1)
+    
+    for station in data:
+        try:
+            sheet_location=x.index(station['gliderName'])+1
+        
+            if station['gliderName'] == glider_name:
+                cell_value = sheet.worksheet('Gliders').cell(sheet_location,2).value
+                return cell_value
+        except:
+            pass
+    # If through loop then just return
+    return
+
+
 #
 # main body of code
 #
 if __name__=="__main__":
     outputfile='/home/flbahr/csv_output/glider_timedelta.csv'
-    create_clean_csv(outputfile,'gliderName',False)
+    create_clean_csv(outputfile,'gliderName',True)
     [glidernames,gliderID,gliderioosURL,gliderURL]=get_assets('/home/flbahr/json_files/glider_names.json')
     for i in np.arange(0,len(glidernames)):
         timedelta_str=get_asset_delta(gliderID[i],gliderURL[i])
+        gsheet_status=get_gspread_status(glider_file='/home/flbahr/json_files/glider_names.json',glider_name=glidernames[i])
         urlout=gliderURL[i][:-3]+'graph'
-        write_to_csv(asset_type='gliderName',asset=glidernames[i],timedelta_str=timedelta_str,caloos_link=urlout,outputfile=outputfile)
+        #write_to_csv(asset_type='gliderName',asset=glidernames[i],timedelta_str=timedelta_str,caloos_link=urlout,outputfile=outputfile)
+        write_to_csv('gliderName',glidernames[i],timedelta_str,urlout,outputfile,gsheet_status)
         #write_to_csv(asset_type='gliderName',asset=glidernames[i],timedelta_str=timedelta_str,caloos_link=gliderURL[i],outputfile=outputfile)
     os.system('scp /home/flbahr/csv_output/glider_timedelta.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')

@@ -128,10 +128,7 @@ def get_gspread_status(station_file, station_name):
                 cell_value = worksheet.cell(row_idx, 2).value
                 return cell_value
         except ValueError:
-            # station['stationName'] not found in sheet_names
             pass
-
-    # No match found
     return None
 
 if __name__ == "__main__":

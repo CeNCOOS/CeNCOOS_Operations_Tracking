@@ -87,7 +87,7 @@ def get_gspread_status(ifcb_file, ifcb_name):
         try:
             sheet_location=x.index(station['IFCBName'])+1
         
-            if station['IFCBName'] == glider_name:
+            if station['IFCBName'] == ifcb_name:
                 cell_value = sheet.worksheet('IFCB').cell(sheet_location,2).value
                 return cell_value
         except:

@@ -89,7 +89,7 @@ def get_gspread_status(hab_file, hab_name):
         try:
             sheet_location=x.index(station['stationName'])+1
         
-            if station['stationName'] == glider_name:
+            if station['stationName'] == hab_name:
                 cell_value = sheet.worksheet('CalHABMAP').cell(sheet_location,2).value
                 return cell_value
         except:

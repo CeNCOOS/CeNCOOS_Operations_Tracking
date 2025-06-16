@@ -16,6 +16,8 @@ import os
 from asset_functions import create_clean_csv, write_to_csv, get_assets
 import gspread
 from google.oauth2.service_account import Credentials
+import gspread
+from google.oauth2.service_account import Credentials
 
 def get_asset_delta(assetID,assetURL):
     '''
@@ -117,6 +119,8 @@ if __name__=="__main__":
         timedelta_str=get_asset_delta(gliderID[i],gliderURL[i])
         gsheet_status=get_gspread_status(glider_file='json_files/glider_names.json',glider_name=glidernames[i])
         urlout=gliderURL[i][:-3]+'graph'
+        #write_to_csv(asset_type='gliderName',asset=glidernames[i],timedelta_str=timedelta_str,caloos_link=urlout,outputfile=outputfile)
+        write_to_csv('gliderName',glidernames[i],timedelta_str,urlout,outputfile,gsheet_status)
         #write_to_csv(asset_type='gliderName',asset=glidernames[i],timedelta_str=timedelta_str,caloos_link=urlout,outputfile=outputfile)
         write_to_csv('gliderName',glidernames[i],timedelta_str,urlout,outputfile,gsheet_status)
         #write_to_csv(asset_type='gliderName',asset=glidernames[i],timedelta_str=timedelta_str,caloos_link=gliderURL[i],outputfile=outputfile)

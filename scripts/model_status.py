@@ -10,10 +10,15 @@ import pdb
 from datetime import timezone
 #import smtplib
 #from email.message import EmailMessage
+#import smtplib
+#from email.message import EmailMessage
 from asset_functions import create_clean_csv, write_to_csv, get_assets
+#from ifcb_helper import get_bins_in_range, get_datasets
 #from ifcb_helper import get_bins_in_range, get_datasets
 #from sfbofs_api_times import sfbofs_api_times
 import os
+import gspread
+from google.oauth2.service_account import Credentials
 import gspread
 from google.oauth2.service_account import Credentials
 
@@ -173,6 +178,9 @@ if __name__=="__main__":
         timedelta_str,asseturl=get_asset_delta(modelID[i],modelURL[i])
         gsheet_status=get_gspread_status(model_file='json_files/model_names.json',model_name=modelnames[i])         		
         #write_to_csv(asset_type='modelName',asset=modelnames[i],timedelta_str=timedelta_str,caloos_link=modelURL[i],outputfile=outputfile)
+        #pdb.set_trace()
+        write_to_csv('modelName',modelnames[i],timedelta_str,catURL[i],outputfile,gsheet_status)
+        #write_to_csv(asset_type='modelName',asset=modelnames[i],timedelta_str=timedelta_str,caloos_link=catURL[i],outputfile=outputfile)
         #pdb.set_trace()
         write_to_csv('modelName',modelnames[i],timedelta_str,catURL[i],outputfile,gsheet_status)
         #write_to_csv(asset_type='modelName',asset=modelnames[i],timedelta_str=timedelta_str,caloos_link=catURL[i],outputfile=outputfile)

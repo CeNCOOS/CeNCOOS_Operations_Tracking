@@ -20,8 +20,8 @@
 		"caloos_link":"https://ifcb.caloos.org/mbari-power-buoy"
 	},
 	{
-		"IFCBName":"IFCB San Francisco Pier 17",
-		"datasetID":"san-francisco-pier-17",
-		"caloos_link":"https://ifcb.caloos.org/san-francisco-pier-17"
+		"IFCBName":"IFCB San Francisco Bay Cruises",
+		"datasetID":"san-francisco-bay-cruises",
+		"caloos_link":"https://ifcb.caloos.org/san-francisco-bay-cruises"
 	}
 ]

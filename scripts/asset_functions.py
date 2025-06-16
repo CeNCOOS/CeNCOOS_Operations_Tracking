@@ -5,8 +5,8 @@ import json
 import datetime as dt
 import pandas as pd
 import numpy as np
-import xarray as xr
-import netCDF4
+#import xarray as xr
+#import netCDF4
 import time
 from time import mktime
 import csv
@@ -92,14 +92,15 @@ def write_to_csv(asset_type,asset,timedelta_str,caloos_link,outputfile,*gsheet):
     
     '''
     with open(outputfile,'a',newline='') as csvfile:
-        if not gsheet:
+        if gsheet:
+            #pdb.set_trace()
+            fieldnames=['Asset','timeDelta','caloosLink','gsheetsStatus'] # again shore station add 'gsheetsStatus'
+            writer=csv.DictWriter(csvfile,fieldnames=fieldnames)
+            writer.writerow({'Asset':asset,'timeDelta':timedelta_str,'caloosLink':caloos_link,'gsheetsStatus':gsheet[0]})
+        else:
             fieldnames=['Asset','timeDelta','caloosLink'] # again shore station add 'gsheetsStatus'
             writer=csv.DictWriter(csvfile,fieldnames=fieldnames)
             writer.writerow({'Asset':asset,'timeDelta':timedelta_str,'caloosLink':caloos_link})
-        else:
-            fieldnames=['Asset','timeDelta','caloosLink','gsheetsStatus'] # again shore station add 'gsheetsStatus'
-            writer=csv.DictWriter(csvfile,fieldnames=fieldnames)
-            writer.writerow({'Asset':asset,'timeDelta':timedelta_str,'caloosLink':caloos_link,'gsheetsStatus':gsheet})
 
                                
         

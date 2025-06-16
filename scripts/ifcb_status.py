@@ -10,10 +10,15 @@ import pdb
 from datetime import timezone
 #import smtplib
 #from email.message import EmailMessage
+#import smtplib
+#from email.message import EmailMessage
 from ifcb_helper import get_bins_in_range, get_datasets
 #from sfbofs_api_times import sfbofs_api_times
 import os
 from asset_functions import create_clean_csv, write_to_csv, get_assets
+import gspread
+from google.oauth2.service_account import Credentials
+
 import gspread
 from google.oauth2.service_account import Credentials
 
@@ -42,6 +47,7 @@ def get_asset_delta(assetID,assetURL):
     start=str(yesterday.year)+'-'+str(yesterday.month)+'-'+str(yesterday.day)
     stop=str(now.year)+'-'+str(now.month)+'-'+str(now.day)
     samples=get_bins_in_range(start,stop,assetID,'https://ifcb.caloos.org')
+    #pdb.set_trace()
     #pdb.set_trace()
     try:
         lastfile=samples.iloc[-1]

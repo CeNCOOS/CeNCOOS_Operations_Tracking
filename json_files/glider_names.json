@@ -1,18 +1,18 @@
 [
     {
-        "gliderName":"Trinidad (OSU 686)",
+        "gliderName":"Trinidad Head Line",
         "datasetID":"OSU266-20250307T0000",
         "ioos_link":"https://gliders.ioos.us/erddap/tabledap/OSU266-20250307T0000.csv",
         "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/OSU266-20250307T0000.csv"
     },
     {
-        "gliderName":"Pt. Arena, line 56 glider",
-        "datasetID":"sp020-20250122T1433",
-        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp020-20250122T1433.csv",
-        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/sp020-20250122T1433.csv"
+        "gliderName":"Line 56 (Bodega)",
+        "datasetID":"sp028-20250520T1836",
+        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp028-20250520T1836.csv",
+        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/sp028-20250520T1836.csv"
     },
     {
-        "gliderName":"Monterey, Line 66 glider",
+        "gliderName":"Line 66 (Monterey)",
         "datasetID":"sp064-20250403T1816",
         "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp064-20250403T1816.csv",
         "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/sp064-20250403T1816.csv"

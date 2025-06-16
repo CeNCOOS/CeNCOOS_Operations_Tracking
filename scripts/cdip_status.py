@@ -83,11 +83,11 @@ def get_asset_delta(assetID,assetURL,caloosURL):
         return timedelta_str
 
 if __name__=="__main__":
-    outputfile='/home/flbahr/csv_output/cdip_timedelta.csv'
+    outputfile='csv_output/cdip_timedelta.csv'
     create_clean_csv(outputfile,'CDIPName',False)
-    [cdipnames,cdipID,cdipURL,cdipcaloosURL]=get_assets('/home/flbahr/json_files/CDIP.json')
+    [cdipnames,cdipID,cdipURL,cdipcaloosURL]=get_assets('json_files/CDIP.json')
     for i in np.arange(0,len(cdipnames)):
         timedelta_str=get_asset_delta(cdipID[i],cdipURL[i],cdipcaloosURL[i])
         theurl=cdipcaloosURL[i][:-8]+'html'
         write_to_csv(asset_type='CDIP',asset=cdipnames[i],timedelta_str=timedelta_str,caloos_link=theurl,outputfile=outputfile)
-    os.system('scp /home/flbahr/csv_output/cdip_timedelta.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')
+    #os.system('scp /home/flbahr/csv_output/cdip_timedelta.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')

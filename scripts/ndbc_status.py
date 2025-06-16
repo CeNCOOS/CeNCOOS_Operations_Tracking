@@ -89,13 +89,13 @@ def get_asset_delta(assetID,assetURL,caloosURL):
 
 
 if __name__=="__main__":
-    outputfile='/home/flbahr/csv_output/ndbc_timedelta.csv'
+    outputfile='csv_output/ndbc_timedelta.csv'
     create_clean_csv(outputfile,'ndbcName',False)
-    [ndbcnames,ndbcID,ndbcURL,ndbccaloosURL]=get_assets('/home/flbahr/json_files/NDBC.json')
+    [ndbcnames,ndbcID,ndbcURL,ndbccaloosURL]=get_assets('json_files/NDBC.json')
     for i in np.arange(0,len(ndbcnames)):
         #print(ndbcnames[i])
         timedelta_str=get_asset_delta(ndbcID[i],ndbcURL[i],ndbccaloosURL[i])
         #print(timedelta_str)
         theurl=ndbccaloosURL[i][:-8]+'html'
         write_to_csv(asset_type='NDBC',asset=ndbcnames[i],timedelta_str=timedelta_str,caloos_link=theurl,outputfile=outputfile)
-    os.system('scp /home/flbahr/csv_output/ndbc_timedelta.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')
+    #os.system('scp /home/flbahr/csv_output/ndbc_timedelta.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')

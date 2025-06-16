@@ -1,0 +1,4 @@
+gliderName,timeDelta,caloosLink,gsheetsStatus
+Trinidad Head Line,"8 hours, 1 minutes",https://erddap.cencoos.org/erddap/tabledap/OSU266-20250307T0000.graph,"('Operational',)"
+Line 56 (Bodega),"4 days, 7 hours, 18 minutes",https://erddap.cencoos.org/erddap/tabledap/sp028-20250520T1836.graph,"('Spray 28 deployed',)"
+Line 66 (Monterey),"4 days, 9 hours, 8 minutes",https://erddap.cencoos.org/erddap/tabledap/sp064-20250403T1816.graph,"('Operational',)"

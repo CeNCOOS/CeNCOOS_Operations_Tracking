@@ -2,19 +2,20 @@ import json
 import datetime as dt
 import pandas as pd
 import numpy as np
-import xarray as xr
 import netCDF4
 import time
 from time import mktime
 import csv
 import pdb
 from datetime import timezone
-import smtplib
-from email.message import EmailMessage
+#import smtplib
+#from email.message import EmailMessage
 from asset_functions import create_clean_csv, write_to_csv, get_assets
-from ifcb_helper import get_bins_in_range, get_datasets
+#from ifcb_helper import get_bins_in_range, get_datasets
 #from sfbofs_api_times import sfbofs_api_times
 import os
+import gspread
+from google.oauth2.service_account import Credentials
 
 def get_asset_delta(assetID,assetURL):
     '''
@@ -135,17 +136,45 @@ def get_asset_delta(assetID,assetURL):
         timedelta_str = "< 1 minute"
     return timedelta_str, assetURL
 #
+def get_gspread_status(model_file,model_name):
+    scopes=[
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive"
+    ]
+    creds = Credentials.from_service_account_file("gsheet/credentials.json", scopes=scopes)
+    client = gspread.authorize(creds)
+    sheet_id = "1-HcKNYpRJmm41R9zXwUGOvWBo917Kh_1t_FLRAH9UlQ"
+    sheet = client.open_by_key(sheet_id)
+
+    f = open(model_file)
+    data = json.load(f)
+    x=sheet.worksheet('Models').col_values(1)
+    for station in data:
+        try:
+            sheet_location=x.index(station['modelName'])+1
+        
+            if station['modelName'] == model_name:
+                cell_value = sheet.worksheet('Models').cell(sheet_location,2).value
+                return cell_value
+        except:
+            pass
+    # If through loop then just return
+    return
+
+#
 # main body of code
 #
 if __name__=="__main__":
-    outputfile='/home/flbahr/csv_output/model_timedelta.csv'
-    create_clean_csv(outputfile,'modelName',False)
-    [modelnames,modelID,modelURL,catURL]=get_assets('/home/flbahr/json_files/model_names.json')
+    outputfile='csv_output/model_timedelta.csv'
+    #create_clean_csv(outputfile,'modelName',False)
+    create_clean_csv(outputfile,'modelName',True)
+    [modelnames,modelID,modelURL,catURL]=get_assets('json_files/model_names.json')
     for i in np.arange(0,len(modelnames)):
         timedelta_str,asseturl=get_asset_delta(modelID[i],modelURL[i])
+        gsheet_status=get_gspread_status(model_file='json_files/model_names.json',model_name=modelnames[i])         		
         #write_to_csv(asset_type='modelName',asset=modelnames[i],timedelta_str=timedelta_str,caloos_link=modelURL[i],outputfile=outputfile)
-        write_to_csv(asset_type='modelName',asset=modelnames[i],timedelta_str=timedelta_str,caloos_link=catURL[i],outputfile=outputfile)
+        #pdb.set_trace()
+        write_to_csv('modelName',modelnames[i],timedelta_str,catURL[i],outputfile,gsheet_status)
+        #write_to_csv(asset_type='modelName',asset=modelnames[i],timedelta_str=timedelta_str,caloos_link=catURL[i],outputfile=outputfile)
         #write_to_csv(asset_type='modelName',asset=modelnames[i],timedelta_str=timedelta_str,caloos_link=asseturl+'.html',outputfile=outputfile)
-    os.system('scp /home/flbahr/csv_output/model_timedelta.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')
-    
-    
+    #os.system('scp csv_output/model_timedelta.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')

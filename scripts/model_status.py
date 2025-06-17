@@ -182,7 +182,7 @@ if __name__=="__main__":
         write_to_csv('modelName',modelnames[i],timedelta_str,catURL[i],outputfile,gsheet_status)
         #write_to_csv(asset_type='modelName',asset=modelnames[i],timedelta_str=timedelta_str,caloos_link=catURL[i],outputfile=outputfile)
         #pdb.set_trace()
-        write_to_csv('modelName',modelnames[i],timedelta_str,catURL[i],outputfile,gsheet_status)
+        #write_to_csv('modelName',modelnames[i],timedelta_str,catURL[i],outputfile,gsheet_status)
         #write_to_csv(asset_type='modelName',asset=modelnames[i],timedelta_str=timedelta_str,caloos_link=catURL[i],outputfile=outputfile)
         #write_to_csv(asset_type='modelName',asset=modelnames[i],timedelta_str=timedelta_str,caloos_link=asseturl+'.html',outputfile=outputfile)
     #os.system('scp csv_output/model_timedelta.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')

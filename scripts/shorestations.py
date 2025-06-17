@@ -145,4 +145,3 @@ if __name__ == "__main__":
         write_to_csv(station = station, timedelta_str = timedelta_str, caloos_link = caloos_link, gsheets_status = gsheets_status, outputfile = outputfile)
     
     now = dt.datetime.now(tz=dt.timezone.utc)
-    print(f'cencoos_status_v2.py ran successfully at {now} UTC')

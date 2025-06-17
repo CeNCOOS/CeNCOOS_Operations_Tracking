@@ -1,18 +1,18 @@
 stationName,timeDelta,caloosLink,gsheetsStatus
-Moss Landing Marine Laboratories Seawater Intake (NDBC:MLSC1),6 minutes,https://data.caloos.org/#metadata/48035/station/data,pH probe needs calibrtion
-Moss Langing Marine Laboratories Weather Station (NDBC:MLSC1),< 1 minute,https://data.caloos.org/#metadata/20724/station/data,
-Monterey Wharf Real Time Sampling,28 minutes,https://data.caloos.org/#metadata/130085/station/data,"Down, sensor being swapped out"
-Hog Island Oyster Hatchery,"4 hours, 49 minutes",https://data.caloos.org/?#metadata/103542/station/data,
-Romberg Tiburon Center Pier,48 minutes,https://data.caloos.org/?&sensor_version=v2cache#metadata/103547/station/data,
-Santa Cruz Municipal Wharf,"222 days, 10 hours, 24 minutes",https://data.caloos.org/#metadata/48323/station/data,Up - CT only (weekly)
-Santa Cruz Municipal Wharf Weather Station,48 minutes,https://data.caloos.org/#metadata/102580/station/data,
-Trinidad Pier (NDBC: TDPC1),33 minutes,https://data.caloos.org/#metadata/48097/station/data,Site buried in sand
-Bodega Marine Laboratory Seawater Intake (NDBC: BDXC1),55 minutes,https://data.caloos.org/#metadata/19946/station/data,Backlogged data has been sent to Axiom for ingest 
-Carquinez Pier (NDBC: COUC1),"303 days, 18 hours, 47 minutes",https://data.caloos.org/?&sensor_version=v2cache#metadata/103546/station/data,This site will be offline permanently; they were working on identifying a new site 
-Fort Point Pier (NDBC: FPXC1),"592 days, 5 hours, 1 minutes",https://data.caloos.org/#metadata/19947/station/data,
-Humboldt Bay Pier (NDBC: HBXC1),34 minutes,https://data.caloos.org/#metadata/20363/station/data,
-Morro Bay Pier (NDBC: MBXC1),"1 hours, 19 minutes",https://data.caloos.org/#metadata/20679/station/data,
-Morro Bay (Back Bay) Weather Station,39 minutes,https://data.caloos.org/#metadata/57163/station/data,
-Morro Bay (Back Bay),39 minutes,https://data.caloos.org/#metadata/100050/station/data,
-San Luis Bay Cal Poly Pier (NDBC: CPXC1),"12 days, 4 hours, 6 minutes",https://data.caloos.org/#metadata/103545/station/data,
-San Luis Bay Cal Poly Pier Weather Station (NDBC: CPXC1),"12 days, 3 hours, 39 minutes",https://data.caloos.org/#metadata/103544/station/data,
+Moss Landing Marine Laboratories Seawater Intake (NDBC:MLSC1),4 minutes,https://data.caloos.org/#metadata/48035/station/data,pH probe needs calibrtion
+Moss Langing Marine Laboratories Weather Station (NDBC:MLSC1),"23 hours, 58 minutes",https://data.caloos.org/#metadata/20724/station/data,
+Hog Island Oyster Hatchery,"10 hours, 53 minutes",https://data.caloos.org/?#metadata/103542/station/data,
+Romberg Tiburon Center Pier,53 minutes,https://data.caloos.org/?&sensor_version=v2cache#metadata/103547/station/data,
+Santa Cruz Municipal Wharf,"222 days, 16 hours, 28 minutes",https://data.caloos.org/#metadata/48323/station/data,Up - CT only (weekly)
+Santa Cruz Wharf Weather Station,53 minutes,https://data.caloos.org/#metadata/102580/station/data,
+Trinidad Pier (NDBC: TDPC1),23 minutes,https://data.caloos.org/#metadata/48097/station/data,Site buried in sand
+Bodega Marine Laboratory Seawater Intake (NDBC: BDXC1),"1 hours, 0 minutes",https://data.caloos.org/#metadata/19946/station/data,Backlogged data has been sent to Axiom for ingest 
+Carquinez Pier (NDBC: COUC1),"304 days, 0 hours, 52 minutes",https://data.caloos.org/?&sensor_version=v2cache#metadata/103546/station/data,This site will be offline permanently; they were working on identifying a new site 
+Fort Point Pier (NDBC: FPXC1),"592 days, 11 hours, 5 minutes",https://data.caloos.org/#metadata/19947/station/data,
+Humboldt Bay Pier (NDBC: HBXC1),23 minutes,https://data.caloos.org/#metadata/20363/station/data,
+Monterey Wharf Real Time Sampling,33 minutes,https://data.caloos.org/#metadata/130085/station/data,"Down, sensor being swapped out"
+Morro Bay Pier (NDBC: MBXC1),43 minutes,https://data.caloos.org/#metadata/20679/station/data,
+Morro Bay (Back Bay) Weather Station,43 minutes,https://data.caloos.org/#metadata/57163/station/data,
+Morro Bay (Back Bay),43 minutes,https://data.caloos.org/#metadata/100050/station/data,
+San Luis Bay Cal Poly Pier (NDBC: CPXC1),"12 days, 10 hours, 10 minutes",https://data.caloos.org/#metadata/103545/station/data,
+San Luis Bay Cal Poly Pier Weather Station (NDBC: CPXC1),"12 days, 9 hours, 43 minutes",https://data.caloos.org/#metadata/103544/station/data,

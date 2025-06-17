@@ -122,6 +122,6 @@ if __name__=="__main__":
         #write_to_csv(asset_type='gliderName',asset=glidernames[i],timedelta_str=timedelta_str,caloos_link=urlout,outputfile=outputfile)
         write_to_csv('gliderName',glidernames[i],timedelta_str,urlout,outputfile,gsheet_status)
         #write_to_csv(asset_type='gliderName',asset=glidernames[i],timedelta_str=timedelta_str,caloos_link=urlout,outputfile=outputfile)
-        write_to_csv('gliderName',glidernames[i],timedelta_str,urlout,outputfile,gsheet_status)
+        #write_to_csv('gliderName',glidernames[i],timedelta_str,urlout,outputfile,gsheet_status)
         #write_to_csv(asset_type='gliderName',asset=glidernames[i],timedelta_str=timedelta_str,caloos_link=gliderURL[i],outputfile=outputfile)
     #os.system('scp /home/flbahr/csv_output/glider_timedelta.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')

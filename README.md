@@ -19,4 +19,4 @@ In particular, each glider swap requires and update of the glider_names.json fil
 
 - `testing` : various scripts and jupyter notebooks used for testing different stages in the pipeline.
 
-
+![Workflow Diagram](https://github.com/CeNCOOS/CeNCOOS_Operations_Tracking/blob/main/operations-dashboard.drawio.png?raw=true)

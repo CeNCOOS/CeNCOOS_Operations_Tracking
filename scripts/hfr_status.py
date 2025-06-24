@@ -63,8 +63,8 @@ if __name__=="__main__":
     outputfile='/home/flbahr/csv_output/hfradar_timedelta.csv'
     create_clean_csv(outputfile,'hfrName',False)
 #    [hfrnames,hfrID,hfrURL]=get_assets('/home/flbahr/json_files/hfradar_names.json')
-    [hfrnames,hfrID,hfrURL]=get_assets('/home/flbahr/json_files/hfradar_names_update.json')
+    [hfrnames,hfrID,ioosURL,hfrURL]=get_assets('/home/flbahr/json_files/hfradar_names_update.json')
     for i in np.arange(0,len(hfrnames)):
         timedelta_str,asseturl=get_asset_delta(hfrID[i],hfrURL[i])
-        write_to_csv(asset_type='hfrName',asset=hfrnames[i],timedelta_str=timedelta_str,caloos_link=hfrURL[i],outputfile=outputfile)
+        write_to_csv(asset_type='hfrName',asset=hfrnames[i],timedelta_str=timedelta_str,caloos_link=ioosURL[i],outputfile=outputfile)
     os.system('scp /home/flbahr/csv_output/hfradar_timedelta.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')

@@ -13,6 +13,11 @@ cd /home/mlebrec/system_state
 scp /home/mlebrec/system_state/csv_output/model_timedelta.csv mlebrec@Skyrocket8:/var/www/html/data/system_state/
 sleep 60
 
+# high frequency radar
+cd /home/mlebrec/system_state
+/home/pdaniel/anaconda3/envs/ops_dashboard_v2/bin/python3.10 /home/mlebrec/system_state/scripts/hfr_status.py
+scp /home/mlebrec/system_state/csv_output/hfradar_timedelta.csv mlebrec@Skyrocket8:/var/www/html/data/system_state/
+
 # calhabmap
 cd /home/mlebrec/system_state
 /home/pdaniel/anaconda3/envs/ops_dashboard_v2/bin/python3.10 /home/mlebrec/system_state/scripts/habmap_status.py

@@ -2,21 +2,25 @@
 	{
 		"hfrName":"6km HF Radar Totals",
 		"datasetID":"HFRADAR_US_West_Coast_6km_Resolution_Hourly_RTV_best",
-		"caloos_link":"http://dods.ndbc.noaa.gov/thredds/dodsC/hfradar_uswc_6km"
+		"caloos_link":"https://data.caloos.org/#module-metadata/de91c282-01e2-11e2-ad19-00219bfe5679",
+		"hfr_link":"https://dods.ndbc.noaa.gov/thredds/dodsC/hfradar_uswc_6km"
 	},
 	{
 		"hfrName":"2km HF Radar Totals",
 		"datasetID":"HFRADAR_US_West_Coast_2km_Resolution_Hourly_RTV_best",
-		"caloos_link":"http://dods.ndbc.noaa.gov/thredds/dodsC/hfradar_uswc_2km"
+		"caloos_link":"https://data.caloos.org/#module-metadata/de91c282-01e2-11e2-ad19-00219bfe5670/efc0aa3c-045e-43b5-a014-a04586e07950",
+		"hfr_link":"https://dods.ndbc.noaa.gov/thredds/dodsC/hfradar_uswc_2km"
 	},
 	{
 		"hfrName":"1km HF Radar Totals",
 		"datasetID":"HFRADAR_US_West_Coast_1km_Resolution_Hourly_RTV_best",
-		"caloos_link":"http://dods.ndbc.noaa.gov/thredds/dodsC/hfradar_uswc_1km"
+		"caloos_link":"https://data.caloos.org/#module-metadata/de91c282-01e2-11e2-ad19-00219bfe5671/9818b1da-06d8-430d-a5b4-66b76b9176a4",
+		"hfr_link":"https://dods.ndbc.noaa.gov/thredds/dodsC/hfradar_uswc_1km"
 	},
 	{
 		"hfrName":"500m HF Radar Totals",
 		"datasetID":"HFRADAR_US_West_Coast_500m_Resolution_Hourly_RTV_best",
-		"caloos_link":"http://dods.ndbc.noaa.gov/thredds/dodsC/hfradar_uswc_500m"
+		"caloos_link":"https://data.caloos.org/#module-metadata/de91c282-01e2-11e2-ad19-00219bfe5672/67b10aed-4814-4f6c-9def-545aff1e6b9e",
+		"hfr_link":"https://dods.ndbc.noaa.gov/thredds/dodsC/hfradar_uswc_500m"
 	}
 ]

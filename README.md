@@ -13,6 +13,13 @@ The repository consists of various scripts for each CeNCOOS system that needs to
 - Data products developed in-house
 - Matlab scripts managed by Fred Bahr
 
+**There are two main steps for deploying this product.**
+1. Fecthing the most recent data for each dataset and producing csv outputs. <br>
+This step is run on an MBARI virtual machine, whereby the file `scripts/update_aggrid.csh` is run hourly as a cron job. This shell script runs various Python scripts, the end products of which include the generation of csv files published to the `csv_outputs` directory. These csv files then get sent to the CeNCOOS webserver using Secure Copy Protocol (scp).<br><br>
+2. Generating interactive tables and deploying them to a Wordpress webpage. <br>
+JavaScript files are being run on the CeNCOOS webserver (located in `/var/www/html/wp-content/themes/cencoos/js`) to generate interactive tables with content from the csv outputs - an example of one of these files is found in the `ag_grid/` directory of this repo. <br>
+Once a .js file is generated for each data type, the `functions.php` file is updated on the webserver. Adding a new function here allows the new .js file to be recognized and included in the webpage. 
+
 **The directory structure is as follows:**
 - `ag_grid` : JavaScript code to produce an interactive table for each datastream type using [AG Grid](https://www.ag-grid.com/), containing information about system status. This code is deployed on the CeNCOOS webserver.
 

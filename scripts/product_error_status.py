@@ -7,7 +7,6 @@
 import os
 import time
 import numpy as np
-from sfbofs_api_times import sfbofs_api_times
 import pdb
 # code needed for e-mail support
 #import smtplib
@@ -18,7 +17,7 @@ import pdb
 #msg['From']='flbahr@mbari.org'
 #msg['To']='flbahr@mbari.org'
 # output file for error status values
-fout=open('/home/flbahr/product_error_status.csv','w')
+fout=open('csv_output/product_error_status.csv','w')
 # first data path to check and the list of files to check
 basedir='/home/flbahr/'
 filelist=['ga4daily.err',
@@ -103,15 +102,15 @@ filelist3=['mbari_underway.err',
            'thoon_webserver.err',
            'thoon_processing.err']
 outputbase3=['MBARI Underway pCO2 data processing',
-            'System status status',
+            'Operations Dashboard',
             'THOON data to webserver',
             'THOON data processing']
 producturl3=['https://cencoos.org/data/underway/latest_file.csv',
-             'https://cencoos.org/shore-station-operations-status/',
+             'https://www.cencoos.org/operations-dashboard/',
              'https://cencoos.org/thoon/',
              'https://cencoos.org/thoon/']
 productnote3=['process latest underway pCO2 data',
-              'create system status status',
+              'Operations Dashboard',
               'THOON data to the webserver',
               'THOON data processing for plots']
 nf3=np.arange(0,len(filelist3))
@@ -139,4 +138,4 @@ fout.close()
 #s.quit()
 
 # push file to webserver data directory
-os.system('scp /home/flbahr/product_error_status.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')
+#os.system('scp /home/flbahr/product_error_status.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')

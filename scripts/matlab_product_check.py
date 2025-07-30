@@ -58,7 +58,7 @@ outputbase=['Trinidad glider climate run ',
             'Get wind data ']
 # write out the output
 fout=open('csv_output/matlab_status_run.csv','w')
-fout.write('Product description , number of bytes in error file, time file created\n')
+fout.write('productDescription,errorFileInBytes,timeErrorFileCreated\n')
 for fil in nf:
     fout.write(outputbase[fil]+', '+str(ferr[fil])+', '+str(mtime[fil])+'\n')
 # close and finish

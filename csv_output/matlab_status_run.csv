@@ -1,15 +1,15 @@
-Product description , number of bytes in error file, time file created
-Trinidad glider climate run , 669.0, 2025-06-17 17:45:53
-Line 56 glider climate run , 0.0, 2025-06-17 21:06:01
-Glider using World Ocean Atlas , 0.0, 2025-06-18 14:18:04
-Copy files to webserver , 4344.0, 2025-06-24 14:10:49
-Get seaglider files , 0.0, 2025-06-24 14:10:01
-Line56 glider climate run , 0.0, 2025-06-17 21:06:01
-Trinidad glider climate run , 0.0, 2025-06-17 16:05:01
-Climate run with World Ocean Atlas , 0.0, 2025-06-18 14:18:04
-OA watch circle alarm , 0.0, 2025-06-24 13:10:01
-Push Trinidad files to GliderDAC , 395.0, 2025-06-24 15:00:00
-Push Trinidad files to GliderDAC second test , 0.0, 2025-06-24 14:30:01
-Push data to Webserver , 878.0, 2025-06-24 13:43:05
-River Sonde data access , 524.0, 2025-06-24 11:33:21
-Get wind data , 396.0, 2025-06-24 14:05:01
+productDescription,errorFileInBytes,timeErrorFileCreated
+Trinidad glider climate run , 0.0, 2025-07-17 16:05:01
+Line 56 glider climate run , 0.0, 2025-07-17 21:06:01
+Glider using World Ocean Atlas , 676.0, 2025-07-18 15:17:31
+Copy files to webserver , 0.0, 2025-07-30 14:10:01
+Get seaglider files , 164.0, 2025-07-30 14:15:45
+Line56 glider climate run , 0.0, 2025-07-17 21:06:01
+Trinidad glider climate run , 0.0, 2025-07-17 16:05:01
+Climate run with World Ocean Atlas , 0.0, 2025-07-18 14:17:01
+OA watch circle alarm , 0.0, 2025-07-30 13:10:01
+Push Trinidad files to GliderDAC , 0.0, 2025-07-30 14:59:59
+Push Trinidad files to GliderDAC second test , 0.0, 2025-07-30 14:30:01
+Push data to Webserver , 0.0, 2025-07-30 14:25:34
+River Sonde data access , 0.0, 2025-07-30 11:15:01
+Get wind data , 0.0, 2025-07-30 14:05:01

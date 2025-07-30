@@ -51,7 +51,7 @@ def get_asset_delta(assetID,assetURL):
                 try:
                     asset_df=pd.read_csv('https://gliders.ioos.us/erddap/tabledap/{}.csv?time'.format(assetID))
                 except Exception as e:
-                    timedetla_str='Error Number='+str(e.errno)+' '+str(e.strerror)
+                    timedelta_str='Error Number='+str(e.errno)+' '+str(e.strerror)
                     # failure to read time data from both Axiom and IOOS 
                     #timedelta_str='Error reading glider data from Axiom and IOOS'
                     return timedelta_str

@@ -1,7 +1,7 @@
 modelName,timeDelta,caloosLink,gsheetsStatus
-West Coast Operational Forecasting System (WCOFS) (AWS S3),"19 hours, 3 minutes",https://data.caloos.org/#module-metadata/bd85b0d7-be99-45d3-9d1e-c14110170f16,
-ROMS NEMURO West Coast Nowcast (10km),"164 days, 16 hours, 3 minutes",https://data.caloos.org/#module-metadata/624c3e5b-0088-43dc-ac94-49bc908ebc2e,Behind at UCSC
-ROMS West Coast Nowcast,"4 days, 16 hours, 3 minutes",https://data.caloos.org/#module-metadata/0ac0326a-a2c6-11e2-9dc2-00219bfe5678,Data access is a problem at UCSC can't grab aggregate or individual files.
-Harmful Algal Bloom (HAB) Predictions from the California-Harmful Algae Risk Mapping (C-HARM) System-Forecast V3,"4 hours, 3 minutes",https://data.caloos.org/#module-metadata/1073bccd-2e20-47e2-9b6d-90b111069443,
-COAMPS CeNCOOS Forecast (4km),"16 hours, 3 minutes",https://data.caloos.org/#module-metadata/5d7e406a-d38d-482d-ab4f-71c8bb3d15b5,
-San Francisco Bay Ocean Forecast System (SFBOFS)- Regular Grid (AWS S3),"17 hours, 3 minutes",https://data.caloos.org/#module-metadata/ad667e1d-4b94-4088-8fa8-7a5c55473589,
+West Coast Operational Forecasting System (WCOFS) (AWS S3),"22 hours, 4 minutes",https://data.caloos.org/#module-metadata/bd85b0d7-be99-45d3-9d1e-c14110170f16,
+ROMS NEMURO West Coast Nowcast (10km),"176 days, 19 hours, 4 minutes",https://data.caloos.org/#module-metadata/624c3e5b-0088-43dc-ac94-49bc908ebc2e,Behind at UCSC
+ROMS West Coast Nowcast,Error Number=-90 NetCDF: file not found,https://data.caloos.org/#module-metadata/0ac0326a-a2c6-11e2-9dc2-00219bfe5678,
+Harmful Algal Bloom (HAB) Predictions from the California-Harmful Algae Risk Mapping (C-HARM) System-Forecast V3,"7 hours, 4 minutes",https://data.caloos.org/#module-metadata/1073bccd-2e20-47e2-9b6d-90b111069443,
+COAMPS CeNCOOS Forecast (4km),"7 hours, 5 minutes",https://data.caloos.org/#module-metadata/5d7e406a-d38d-482d-ab4f-71c8bb3d15b5,
+San Francisco Bay Ocean Forecast System (SFBOFS)- Regular Grid (AWS S3),"20 hours, 5 minutes",https://data.caloos.org/#module-metadata/ad667e1d-4b94-4088-8fa8-7a5c55473589,

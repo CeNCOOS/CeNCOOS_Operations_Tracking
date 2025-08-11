@@ -7,7 +7,7 @@ cd /home/mlebrec/system_state
 scp /home/mlebrec/system_state/csv_output/stations_timedelta.csv mlebrec@Skyrocket8:/var/www/html/data/system_state/
 sleep 60
 
-# models 
+# models  
 cd /home/mlebrec/system_state
 /home/pdaniel/anaconda3/envs/ops_dashboard_v2/bin/python3.10 /home/mlebrec/system_state/scripts/model_status.py
 scp /home/mlebrec/system_state/csv_output/model_timedelta.csv mlebrec@Skyrocket8:/var/www/html/data/system_state/

@@ -1,16 +1,16 @@
 productDescription, errorFileInBytes, timeErrorFileCreated, productURL, comment
-Google analytics: daily user access count append to data file, 0, Tue Jul 29 10:45:01 2025,https://cencoos.org/analytics-daily/,Google analytics
-Google analytics: monthly user access count append to data file, 0, Tue Jul 29 10:45:01 2025,https://cencoos.org/analytics-monthly/,Google analytics
-Heat Wave: get current days WCOFS SST from Amazon S3, 0, Wed Jul 30 08:40:01 2025,,internal Heatwave WCOFS daily SST data read
-Heat Wave: get last months WCOFS SST from Amazon S3, 0, Wed Jul  2 09:30:01 2025,,internal Heatwave WCOFS last month SST data read
-Heat Wave: Run the actual heatwave code, 0, Tue Jul 29 11:48:01 2025,https://cencoos.org/marine-heatwave/,Heatwave run
-Heat Wave: Reformat of WCOFS SST data, 0, Wed Jul 30 08:30:01 2025,,Reformat WCOFS SST data for use with heatwave
-Heat Wave: Merge the WCOFS SST data, 0, Wed Jul 30 08:15:01 2025,,Merge WCOFS SST data for use with heatwave
-Heat Wave: Plot the output of the HeatWave code, 0, Tue Jul 29 09:50:01 2025,https://cencoos.org/marine-heatwave/,Plot output from Heatwave code
-Transfer files (plots and other data) to webserver, 0, Tue Jul 29 13:20:01 2025,,Push files to webserver
-CUTI and BEUTI update plots, 0, Wed Jul 30 08:30:01 2025,https://cencoos.org/cuti-and-beuti-upwelling-indices-post/,CUTI and BEUTI plots
-Wave statistics update , 0, Wed Jul 30 08:35:02 2025,https://cencoos.org/information-solutions/recent-waves/,Wave Statistices plots
-MBARI Underway pCO2 data processing, 0, Sun Jul 27 00:00:01 2025,https://cencoos.org/data/underway/latest_file.csv,process latest underway pCO2 data
-Operations Dashboard, 0, Wed Jul 30 09:00:01 2025,https://www.cencoos.org/operations-dashboard/,Operations Dashboard
-THOON data to webserver, 0, Wed Jul 30 09:01:01 2025,https://cencoos.org/thoon/,THOON data to the webserver
-THOON data processing, 0, Wed Jul 30 09:00:01 2025,https://cencoos.org/thoon/,THOON data processing for plots
+Google analytics: daily user access count append to data file, 0, Mon Aug 11 10:45:02 2025,https://cencoos.org/analytics-daily/,Google analytics
+Google analytics: monthly user access count append to data file, 0, Mon Aug 11 10:45:02 2025,https://cencoos.org/analytics-monthly/,Google analytics
+Heat Wave: get current days WCOFS SST from Amazon S3, 0, Mon Aug 11 08:40:02 2025,,internal Heatwave WCOFS daily SST data read
+Heat Wave: get last months WCOFS SST from Amazon S3, 0, Sat Aug  2 09:30:01 2025,,internal Heatwave WCOFS last month SST data read
+Heat Wave: Run the actual heatwave code, 0, Mon Aug 11 11:48:01 2025,https://cencoos.org/marine-heatwave/,Heatwave run
+Heat Wave: Reformat of WCOFS SST data, 0, Mon Aug 11 08:30:01 2025,,Reformat WCOFS SST data for use with heatwave
+Heat Wave: Merge the WCOFS SST data, 0, Mon Aug 11 08:15:01 2025,,Merge WCOFS SST data for use with heatwave
+Heat Wave: Plot the output of the HeatWave code, 0, Mon Aug 11 09:50:01 2025,https://cencoos.org/marine-heatwave/,Plot output from Heatwave code
+Transfer files (plots and other data) to webserver, 0, Sun Aug 10 13:20:01 2025,,Push files to webserver
+CUTI and BEUTI update plots, 0, Mon Aug 11 08:30:02 2025,https://cencoos.org/cuti-and-beuti-upwelling-indices-post/,CUTI and BEUTI plots
+Wave statistics update , 673, Mon Aug 11 11:35:06 2025,https://cencoos.org/information-solutions/recent-waves/,Wave Statistices plots
+MBARI Underway pCO2 data processing, 0, Sun Aug 10 00:00:01 2025,https://cencoos.org/data/underway/latest_file.csv,process latest underway pCO2 data
+Operations Dashboard, 0, Mon Aug 11 12:00:01 2025,https://www.cencoos.org/operations-dashboard/,Operations Dashboard
+THOON data to webserver, 0, Mon Aug 11 12:01:01 2025,https://cencoos.org/thoon/,THOON data to the webserver
+THOON data processing, 0, Mon Aug 11 12:00:01 2025,https://cencoos.org/thoon/,THOON data processing for plots

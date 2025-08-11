@@ -2,19 +2,19 @@
     {
         "gliderName":"Trinidad Head Line",
         "datasetID":"OSU266-20250307T0000",
-        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/OSU266-20250307T0000.html",
-        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-OSU266-20250307T0000.html"
+        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/OSU266-20250307T0000",
+        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-OSU266-20250307T0000.csv"
     },
     {
         "gliderName":"Line 56 (Bodega)",
         "datasetID":"sp028-20250520T1836",
-        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp028-20250520T1836.html",
-        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-sp028-20250520T1836.html"
+        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp028-20250520T1836",
+        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-sp028-20250520T1836.csv"
     },
     {
         "gliderName":"Line 66 (Monterey)",
         "datasetID":"sp064-20250403T1816",
-        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp064-20250403T1816.html",
-        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-sp064-20250403T1816.html"
+        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp064-20250403T1816",
+        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-sp064-20250403T1816.csv"
     }
 ]

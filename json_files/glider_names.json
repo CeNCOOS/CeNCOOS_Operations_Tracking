@@ -7,9 +7,9 @@
     },
     {
         "gliderName":"Line 56 (Bodega)",
-        "datasetID":"sp028-20250520T1836",
-        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp028-20250520T1836.html",
-        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-sp028-20250520T1836.html"
+        "datasetID":"sp020-20250919T1720",
+        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp020-20250919T1720.html",
+        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-sp020-20250919T1720.html"
     },
     {
         "gliderName":"Line 66 (Monterey)",
@@ -18,5 +18,6 @@
         "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-sp055-20250806T2212.html"
     }
 ]
+
 
 

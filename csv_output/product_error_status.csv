@@ -1,16 +1,16 @@
 productDescription, errorFileInBytes, timeErrorFileCreated, productURL, comment
 Google analytics: daily user access count append to data file, 0, Wed Sep 24 10:45:01 2025,https://cencoos.org/analytics-daily/,Google analytics
 Google analytics: monthly user access count append to data file, 0, Wed Sep 24 10:45:01 2025,https://cencoos.org/analytics-monthly/,Google analytics
-Heat Wave: get current days WCOFS SST from Amazon S3, 0, Wed Sep 24 08:40:01 2025,,internal Heatwave WCOFS daily SST data read
+Heat Wave: get current days WCOFS SST from Amazon S3, 0, Thu Sep 25 08:40:02 2025,,internal Heatwave WCOFS daily SST data read
 Heat Wave: get last months WCOFS SST from Amazon S3, 0, Tue Sep  2 09:30:02 2025,,internal Heatwave WCOFS last month SST data read
 Heat Wave: Run the actual heatwave code, 0, Wed Sep 24 11:48:01 2025,https://cencoos.org/marine-heatwave/,Heatwave run
-Heat Wave: Reformat of WCOFS SST data, 0, Wed Sep 24 08:30:01 2025,,Reformat WCOFS SST data for use with heatwave
-Heat Wave: Merge the WCOFS SST data, 0, Wed Sep 24 08:15:01 2025,,Merge WCOFS SST data for use with heatwave
+Heat Wave: Reformat of WCOFS SST data, 0, Thu Sep 25 08:30:01 2025,,Reformat WCOFS SST data for use with heatwave
+Heat Wave: Merge the WCOFS SST data, 0, Thu Sep 25 08:15:01 2025,,Merge WCOFS SST data for use with heatwave
 Heat Wave: Plot the output of the HeatWave code, 0, Wed Sep 24 15:53:01 2025,https://cencoos.org/marine-heatwave/,Plot output from Heatwave code
-Transfer files (plots and other data) to webserver, 0, Wed Sep 24 07:40:01 2025,,Push files to webserver
-CUTI and BEUTI update plots, 0, Wed Sep 24 08:30:01 2025,https://cencoos.org/cuti-and-beuti-upwelling-indices-post/,CUTI and BEUTI plots
-Wave statistics update , 0, Thu Sep 25 05:35:02 2025,https://cencoos.org/information-solutions/recent-waves/,Wave Statistices plots
+Transfer files (plots and other data) to webserver, 0, Thu Sep 25 07:40:01 2025,,Push files to webserver
+CUTI and BEUTI update plots, 0, Thu Sep 25 08:30:01 2025,https://cencoos.org/cuti-and-beuti-upwelling-indices-post/,CUTI and BEUTI plots
+Wave statistics update , 0, Thu Sep 25 08:35:01 2025,https://cencoos.org/information-solutions/recent-waves/,Wave Statistices plots
 MBARI Underway pCO2 data processing, 0, Sun Sep 21 00:00:01 2025,https://cencoos.org/data/underway/latest_file.csv,process latest underway pCO2 data
 Operations Dashboard, 0, Thu Sep 25 06:00:01 2025,https://www.cencoos.org/operations-dashboard/,Operations Dashboard
-THOON data to webserver, 0, Thu Sep 25 06:01:01 2025,https://cencoos.org/thoon/,THOON data to the webserver
-THOON data processing, 0, Thu Sep 25 06:00:01 2025,https://cencoos.org/thoon/,THOON data processing for plots
+THOON data to webserver, 0, Thu Sep 25 09:01:01 2025,https://cencoos.org/thoon/,THOON data to the webserver
+THOON data processing, 0, Thu Sep 25 09:00:01 2025,https://cencoos.org/thoon/,THOON data processing for plots

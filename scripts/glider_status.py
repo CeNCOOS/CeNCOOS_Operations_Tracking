@@ -118,7 +118,7 @@ if __name__=="__main__":
     for i in np.arange(0,len(glidernames)):
         timedelta_str=get_asset_delta(gliderID[i],gliderURL[i])
         gsheet_status=get_gspread_status(glider_file='json_files/glider_names.json',glider_name=glidernames[i])
-        urlout=gliderioosURL[i][:-3]+'graph'
+        urlout=gliderioosURL[i][:-4]+'graph'
         #urlout=gliderURL[i][:-3]+'graph'
         #write_to_csv(asset_type='gliderName',asset=glidernames[i],timedelta_str=timedelta_str,caloos_link=urlout,outputfile=outputfile)
         write_to_csv('gliderName',glidernames[i],timedelta_str,urlout,outputfile,gsheet_status)

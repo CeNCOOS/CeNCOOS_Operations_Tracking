@@ -2,16 +2,13 @@
     {
         "gliderName":"Trinidad Head Line",
         "datasetID":"OSU266-20250307T0000",
-        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/OSU266-20250307T0000",
+        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/OSU266-20250307T0000.html",
         "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-OSU266-20250307T0000.csv"
     },
     {
         "gliderName":"Line 56 (Bodega)",
         "datasetID":"sp020-20250919T1720",
         "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp020-20250919T1720.html",
-        "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-sp020-20250919T1720.html"
-        "datasetID":"sp020-20250919T1720",
-        "ioos_link":"https://gliders.ioos.us/erddap/tabledap/sp020-20250919T1720",
         "caloos_link":"https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-sp020-20250919T1720.html"
     },
     {

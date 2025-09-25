@@ -1,4 +1,4 @@
 gliderName,timeDelta,caloosLink,gsheetsStatus
-Trinidad Head Line,"7 hours, 40 minutes",https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-OSU266-20250307T0000.graph,
-Line 56 (Bodega),"4 hours, 57 minutes",https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-sp020-20250919T1720.hgraph,Glider now in the DAC
-Line 66 (Monterey),"5 hours, 59 minutes",https://erddap.cencoos.org/erddap/tabledap/ioos-gliderdac-sp055-20250806T2212.hgraph,
+Trinidad Head Line,"7 hours, 57 minutes",https://gliders.ioos.us/erddap/tabledap/OSU266-20250307T0000.graph,
+Line 56 (Bodega),"5 hours, 13 minutes",https://gliders.ioos.us/erddap/tabledap/sp020-20250919T1720.graph,Glider now in the DAC
+Line 66 (Monterey),"6 hours, 15 minutes",https://gliders.ioos.us/erddap/tabledap/sp055-20250806T2212.graph,

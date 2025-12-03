@@ -52,7 +52,7 @@
 	{
 		"hfrName":"PBON",
 		"datasetID":"Point Bonita",
-		"caloos_link":"https://hfradar.ioos.us/erddap/tabledap/CODAR_PBON.csv?time"
+		"caloos_link":"https://hfradar.ioos.us/erddap/tabledap/BML_PBON.csv?time"
 	},
 	{
 		"hfrName":"SAUS",

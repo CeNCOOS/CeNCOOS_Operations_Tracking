@@ -51,11 +51,11 @@ def get_asset_delta(assetID,assetURL):
 # main body of the code
 #
 if __name__=="__main__":
-    outputfile='/home/flbahr/csv_output/hfr_radial_timedelta.csv'
+    outputfile='csv_output/hfr_radial_timedelta.csv'
     create_clean_csv(outputfile,'hfrName',False)
     [hfrnames,assetID,radialURL]=get_assets('/home/flbahr/json_files/hfradar_radial_names.json')
     for i in np.arange(0,len(hfrnames)):
         timedelta_str,asseturl=get_asset_delta(assetID[i],radialURL[i])
         # need to trap for bad error type
         write_to_csv(asset_type='hfrName',asset=hfrnames[i],timedelta_str=timedelta_str,caloos_link=radialURL[i],outputfile=outputfile)
-    os.system('scp /home/flbahr/csv_output/hfr_radial_timedelta.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')
+    #os.system('scp /home/flbahr/csv_output/hfr_radial_timedelta.csv flbahr@skyrocket8.mbari.org:/var/www/html/data/system_state/')

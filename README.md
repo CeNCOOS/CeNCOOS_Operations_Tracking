@@ -34,3 +34,8 @@ Once a .js file is generated for each data type, the `functions.php` file is upd
 - `testing` : various scripts and jupyter notebooks used for testing different stages in the pipeline.
 
 ![Workflow Diagram](https://github.com/CeNCOOS/CeNCOOS_Operations_Tracking/blob/main/operations-dashboard.drawio.png?raw=true)
+
+SITE update notes:
+2026/Feb/11-- Removed NDBC buoy 46042 from json list.  Currently unknown if or when the buoy may be replaced.
+2026/Feb/11-- Remove CDIP 266 and 267 from json list.  Pajaro Beach, and Pajaro Beach South are listed as decommissioned.
+

@@ -42,12 +42,6 @@
 		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/gov-ndbc-46028.csv?time"
 	},
 	{
-		"NDBCName":"Monterey",
-		"datasetID":"wmo_46042",
-		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/46042.txt",
-		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/wmo_46042.csv?time"
-	},
-	{
 		"NDBCName":"West California",
 		"datasetID":"gov-ndbc-46059",
 		"ioos_link":" https://ndbc.noaa.gov/data/realtime2/46059.txt",

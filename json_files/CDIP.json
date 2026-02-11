@@ -46,18 +46,6 @@
 		"datasetID":"222-santa-lucia-escarpment-ca-46",
 		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/222p1_rt.nc",
 		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/222-santa-lucia-escarpment-ca-46.csv?time"
-	},
-	{
-		"CDIPName":"Pajaro Beach",
-		"datasetID":"edu_ucsd_cdip_266",
-		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/266p1_rt.nc",
-		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/edu_ucsd_cdip_266.csv?time"
-	},
-	{
-		"CDIPName":"Pajaro Beach South",
-		"datasetID":"edu_ucsd_cdip_267",
-		"cdip_link":"https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/267p1_rt.nc",
-		"caloos_link":"https://erddap.cencoos.org/erddap/tabledap/edu_ucsd_cdip_267.csv?time"
 	}
 ]
 		
